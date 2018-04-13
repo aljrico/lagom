@@ -85,7 +85,7 @@ ul.posts li {
 }
 
 ul.posts span {
-  font-family: 'Ubuntu', 'Ubuntu', monospace;
+  font-family: 'Lucida Console', 'Andale Mono', monospace;
   color: #aaa;
   padding-right: 5px;
   font-size:12px;
