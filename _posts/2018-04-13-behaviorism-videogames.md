@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The usage of *Behaviorism* in videogames
+title: The usage of Behaviorism in videogames
 categories:
 - blog
 ---
