@@ -5,7 +5,7 @@ categories:
 - blog
 ---
 
-Have you ever feel the sensation of playing a videogame *way* past the point where was fun? Have you ever finished a game, and then looked back a few weeks later and thought *What the hell was I doing with my life*? Why does that happen? 
+Have you ever felt the sensation of playing a videogame *way* past the point where was fun? Have you ever finished a game, and then looked back a few weeks later and thought *What the hell was I doing with my life*? Why does that happen? 
 
 Some games are strongly build around reward schedules, where its design is aimed to make you continually repeat dulling and tedious tasks that has long lost its novelty, creating the illusion of engagement. Even some poorly designed action games use this system to convince players to smash the same buttons for 12 hours straight.
 
