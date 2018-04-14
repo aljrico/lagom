@@ -57,6 +57,6 @@ Games can foster engagement by applying more interesting and immversive mechanic
 
 ---
 
-I am not saying behaviourism is a bad thing or that leads to methodologies that ought to be entirely avoided. All honest and compelling design strategies can be fairly enhanced using Skinner-Box techniques, making the game more exciting and engaging. But we need to be awarae of their existence, and be able to get rid of this increasing reliance on behaviourism methods that just aim to trick the players into a compulsive non-compelling and unhealthy gaming. 
+I am not saying behaviourism is a bad thing or that leads to methodologies that ought to be entirely avoided. All honest and compelling design strategies can be fairly enhanced using Skinner-Box techniques, making the game more exciting and engaging. But we need to be aware of their existence, and be able to get rid of this increasing reliance on behaviourism methods that just aim to trick players into a compulsive non-compelling and unhealthy gaming. 
 
 We can do better than that.

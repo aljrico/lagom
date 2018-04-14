@@ -162,6 +162,7 @@ nav h1, nav h2 {
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;
+  font-weight: 200;
 }
 
 .footer {
