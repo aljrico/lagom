@@ -31,7 +31,7 @@ What happened is that Skinner proved that he could condition the decision making
 
 Further research showed even more impressive conclusions: The best way to convince someone to continuously do an action is not always giving him a reward immediately after, but to recompense him a random number of times he performed that action, or just scattered enough in time to create the sense of randomness. This strategy happened to be far more effective.
 
-Usually this can be spotted in gambling. We all know that gambling games are not rigged in favour of the gambler, and the gamblers are well aware of that too. So why they do keep playing? Consider asking yourself something: Whould you rather prefer spending 8 hours in a casino playing blackjack and ending with 100€, or pushing a button in a factory for the same time and ending with 100€? Which activity would people tell you is more fun?
+Usually this can be spotted in gambling. We all know that gambling games are not rigged in favour of the gambler, and the gamblers are well aware of that too. So why they do keep playing? Consider asking yourself something: Whould you rather spend 8 hours in a casino playing blackjack and ending with 100€, or pushing a button in a factory for the same time and ending with 100€? Which activity would people tell you is more fun?
 
 # Conditioning
 
@@ -45,7 +45,7 @@ Funny enough, those secondary needs are considered just proxy achievements in or
 
 ---
 
-Too many games uses rewarding Skinner techniques as a catch, as a cover to delay your realisation of how terrible, boring and uninspired they are.
+Too many games use rewarding Skinner techniques as a catch, as a cover to delay your realisation of how terrible, boring and uninspired they are.
 
 Besides understanding how behaviourism is used in videogames, it is important to know that there are other better ways to stimulate engagment. Not just simple Skinner Box satisfaction cons, tricks, hustles, hoodwinks, gamgbits, flimflams, strategems and bamboozles the system rewards you with.
 
