@@ -17,7 +17,7 @@ In this article I want to talk about how games can condition behaviour.
 
 In the early 30's, [Burrhus Frederic Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) began studying psycology in a ground-breaking new way. What is now called **Radical Behaviorism**.
 
-Before him, we already knew how to condition immediate reactions. How to induce fear, hungry, sadness and many other reactions on whatever topic we may picture. Imagine getting a guy terrified of pencils or induce him extreme sadness over pumpkins, maybe getting him sexually attracted to [bunnies](https://en.wikipedia.org/wiki/Playboy_Bunny).
+Before him, we already knew how to condition immediate reactions. How to induce fear, hunger, sadness and many other reactions on whatever topic we may picture. Imagine getting a guy terrified of pencils or induce him extreme sadness over pumpkins, maybe getting him sexually attracted to [bunnies](https://en.wikipedia.org/wiki/Playboy_Bunny).
 
 The boundary of this power is that it was limited to immediate and not well-thought reactions, not to rational decisions. The ground-breaking discovery of Skinner is that rational and logical decisions can be induced too. In fact, Skinner gone so far as to stating that there is no real *free will*, and that every decision is the outcome of the consequences of previous decisions, and how they affected us.
 
