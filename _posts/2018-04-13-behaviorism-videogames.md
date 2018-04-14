@@ -19,7 +19,7 @@ In the early 30's, [Burrhus Frederic Skinner](https://en.wikipedia.org/wiki/B._F
 
 Before him, we already knew how to condition immediate reactions. How to induce fear, hunger, sadness and many other reactions on whatever topic we may picture. Imagine getting a guy terrified of pencils or induce him extreme sadness over pumpkins, maybe getting him sexually attracted to [bunnies](https://en.wikipedia.org/wiki/Playboy_Bunny).
 
-The boundary of this power is that it was limited to immediate and not well-thought reactions, not to rational decisions. The ground-breaking discovery of Skinner is that rational and logical decisions can be induced too. In fact, Skinner gone so far as to stating that there is no real *free will*, and that every decision is the outcome of the consequences of previous decisions, and how they affected us.
+The boundary of this power is that it was limited to immediate and not well-thought reactions, not to rational decisions. The ground-breaking discovery of Skinner is that rational and logical decisions can be induced too. In fact, Skinner went so far as to stating that there is no real *free will*, and that every decision is the outcome of the consequences of previous decisions, and how they affected us.
 
 These discoveries of Skinner, and how this knowledge can be used to change the way people make choices, has been subject of great controversy over the following decades. And eventually widely and quite smartly used in the videogames industry.
 
