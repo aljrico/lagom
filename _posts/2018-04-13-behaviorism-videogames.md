@@ -25,9 +25,9 @@ These discoveries of Skinner, and how this knowledge can be used to change the w
 
 # The Skinner Box
 
-Skinner performed a brilliant and simple experiment. He created a machine that consisted on a simple closed box with a button inside it that automatically let some food in. The method of the experiment consisted in introducing a pigeon inside the box and record the evolution in its behaviour.
+Skinner performed a brilliant and simple experiment. He created a machine that consisted of a simple closed box with a button inside it that automatically let some food in. The method of the experiment consisted in introducing a pigeon inside the box and record the evolution in its behaviour.
 
-What happened is that Skinner proofed that he could condition the decision making of the piegon. Because pecking the button was not a immediate reaction to stimulae, it was **learned behaviour**; and this distinction makes all the difference. This is [operant conditioning](https://en.wikipedia.org/wiki/Operant_conditioning). And even more amazing, he found out that operant conditioning can be applied on humans too.
+What happened is that Skinner proved that he could condition the decision making of the piegon. Because pecking the button was not a immediate reaction to stimulae, it was **learned behaviour**; and this distinction makes all the difference. This is [operant conditioning](https://en.wikipedia.org/wiki/Operant_conditioning). And even more amazing, he found out that operant conditioning can be applied on humans too.
 
 Further research showed even more impressive conclusions: The best way to convince someone to continuously do an action is not always giving him a reward immediately after, but to recompense him a random number of times he performed that action, or just scattered enough in time to create the sense of randomness. This strategy happened to be far more effective.
 
