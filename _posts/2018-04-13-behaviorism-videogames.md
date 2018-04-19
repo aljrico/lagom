@@ -25,7 +25,7 @@ These discoveries of Skinner, and how this knowledge can be used to change the w
 
 Skinner performed a brilliant and simple experiment. He created a machine that consisted of a simple closed box with a button inside it that automatically let some food in. The method of the experiment consisted in introducing a pigeon inside the box and record the evolution of its behaviour.
 
-What happened is that Skinner proved that he could condition the decision making of the piegon. Because pecking the button was not an immediate reaction to stimulae, it was **learned behaviour**; and this distinction makes all the difference. This is [operant conditioning](https://en.wikipedia.org/wiki/Operant_conditioning). And even more amazing, he found out that operant conditioning can be applied on humans too.
+What happened is that Skinner proved that he could condition the decision making of the pigeon. Because pecking the button was not an immediate reaction to stimulae, it was **learned behaviour**; and this distinction makes all the difference. This is [operant conditioning](https://en.wikipedia.org/wiki/Operant_conditioning). And even more amazing, he found out that operant conditioning can be applied on humans too.
 
 Further research showed even more impressive conclusions: The best way to convince someone to continuously do an action is not always giving him a reward immediately after, but to recompense him a random number of times he performed that action, or just scattered enough in time to create the sense of randomness. This strategy happened to be far more effective.
 
@@ -33,7 +33,7 @@ Usually this can be spotted in gambling. We all know that gambling games are not
 
 # Conditioning
 
-When talking about conditioned learning, we need to understand what a *reinforcement* is. Plainly, it is just the rewarding support of someone's action. This is achieved using exploiting conditioners. And we can differntiate two different kind of conditioners:
+When talking about conditioned learning, we need to understand what a *reinforcement* is. Plainly, it is just the rewarding support of someone's action. This is achieved by exploiting conditioners. And we can differntiate two different kind of conditioners:
 
 - **Primary Conditioners**.  Or what we are used to call *biological* needs or fundamental. Food, water, sleep, sexual desire, etc. The effect of the reward from this conditioners might have a huge effect, but it utterly diminishes once the person reaches satiation or the biological limit of their needs.
 
