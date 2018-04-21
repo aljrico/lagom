@@ -17,9 +17,12 @@
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 
@@ -37,9 +40,12 @@ img {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 
@@ -59,9 +65,12 @@ img {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 
@@ -78,9 +87,12 @@ img {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 
@@ -104,11 +116,13 @@ img {
 /*  RESPONSIVE IMAGES */
 
 img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
-
 
 .responsive-image {
   height: 50%;

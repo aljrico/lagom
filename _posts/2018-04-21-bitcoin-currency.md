@@ -60,5 +60,20 @@ In this plot you can see the computed moving volatility of Bitcoin and some stan
 
 Some argue that even though bitcoin is not at acceptable levels at this moment, it eventually will. Trying to predict whether the volatility will eventually drop at the levels of the other currencies would be difficult and unprecise, but above all: extremely **misleading**. So we are not going to do that in this article. The point to be extracted from this brief analysis is that bitcoin has *much* greater volatility than fiat currencies. Moreover, the volatility tends to change drastically over time. So even in periods of apparent calm, you can not be confident that the price would not start to dance wildly again. 
 
-The volatility of bitcoin might be a dealbreaker for some, or a tiny detail for others. But it is an issue to consider, because it erodes the confidence of people in the durability of its value. And this alone can prevent it from becoming a new currency standard.
+The volatility of bitcoin might be a dealbreaker for some, or a solvable misfortune for others. But it is an issue to consider, because it erodes the confidence of people in the bitcoin. Because price stability carries saftey. And nobody will be interested in saving his money in a currency that does not *feel* safe. 
 
+This rises some doubts upon wheter bitcoin can become a mean for storing value. And this alone can prevent it from becoming a new currency standard.
+
+## Unit of Account
+
+How many bitcoins are required to buy a pizza? How many bitcoins would be worth an hour of your time? How minimum amout of bitcoins would you accept as your salary?
+
+While people remain unable to answer those questions without having to convert it in $US or their local currency, bitcoin will not be a unit of account.
+
+The value of bitcoin is seldom talked about in relation to goods and services, it is always in terms of dollars. So dollars are the *Unit of Account* in this sense. Not the bitcoin. 
+
+Maybe because people is not using bitcoin so much in their every day lifes, or perhaps because of a lack of price stability; but it is clear that bitcoin is not being used as a *Unit of Account* yet. And does not look to being used as such in any near future.
+
+---
+
+At this moment, it seems that the people that has bitcoins makes two very different uses out of it. It either expects to avoid taxes or fees, or it expects its value to grow higher and make some profit. The latter use is what inflates speculatives bubbles. 
