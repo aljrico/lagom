@@ -72,3 +72,10 @@
 		line-height: 24px;
 	}
 }
+
+/*  RESPONSIVE IMAGES */
+
+.responsive-image {
+  height: auto;
+  width: 50%;
+}
