@@ -60,6 +60,8 @@ In this plot you can see the computed moving volatility of Bitcoin and some stan
 
 Some argue that even though bitcoin is not at acceptable levels at this moment, it eventually will. Trying to predict whether the volatility will eventually drop at the levels of the other currencies would be difficult and unprecise, but above all: extremely **misleading**. So we are not going to do that in this article. The point to be extracted from this brief analysis is that bitcoin has *much* greater volatility than fiat currencies. Moreover, the volatility tends to change drastically over time. So even in periods of apparent calm, you can not be confident that the price would not start to dance wildly again. 
 
+Some argue that huge fluctuacions of price is normal for any *young* currency with no banking support and no public understanding surrounding its nature. But it is still to be shown whether this fluctuations might dilude over time as those issues are addressed.
+
 The volatility of bitcoin might be a dealbreaker for some, or a solvable misfortune for others. But it is an issue to consider, because it erodes the confidence of people in the bitcoin. Because price stability carries saftey. And nobody will be interested in saving his money in a currency that does not *feel* safe. 
 
 This rises some doubts upon wheter bitcoin can become a mean for storing value. And this alone can prevent it from becoming a new currency standard.
@@ -72,8 +74,16 @@ While people remain unable to answer those questions without having to convert i
 
 The value of bitcoin is seldom talked about in relation to goods and services, it is always in terms of dollars. So dollars are the *Unit of Account* in this sense. Not the bitcoin. 
 
+Some argue that the Unit of Account vary from region to region or even from person to person. Euro is definitely a unit of account for people in Euro countries, and Yen is the unit of account for people in Japan. But that does not face my point, because nobody in no region on Earth uses Bitcoin as his Unit of Account. They'd always need a local or global currency to know the value of a Bitcoin, no by its own. This may change in some years, but it is not the present situation.
+
 Maybe because people is not using bitcoin so much in their every day lifes, or perhaps because of a lack of price stability; but it is clear that bitcoin is not being used as a *Unit of Account* yet. And does not look to being used as such in any near future.
 
 ---
 
-At this moment, it seems that the people that has bitcoins makes two very different uses out of it. It either expects to avoid taxes or fees, or it expects its value to grow higher and make some profit. The latter use is what inflates speculatives bubbles. 
+At this moment, it seems that the people that has bitcoins make two very different uses out of it. It either expects to avoid taxes or fees, or it expects its value to grow higher and make some profit. The latter use is what inflates speculatives bubbles. 
+
+It is also true that blockchain decentralized programs have huge potential and people want to use them somehow.
+
+Cryptocurrencies - more broadly - hahve value in that the technology beneath them happens to be innovative and useful. The nature of their relationship to the users is unique in that it is a hybrid of the anonymity of cash and the ease of credit cards and the security of a vault. Also, in order to become more popular, these currencies need the applications built for them to become easier over time. Allowing the average guy to use them whils feeling *safe*.
+
+
