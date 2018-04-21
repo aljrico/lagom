@@ -42,7 +42,7 @@ Nowadays, bitcoins are sometimes used to buy and sell goods. Bitcoin is oftenly 
 
 So yes, you can fairly think that bitcoin could be pretty useful as a mean of exchange.
 
-# Storing Value
+## Storing Value
 
 This point is intended to be the flagship of the bitcoin's movement. This is the one where a lot of bitcoin's defenders are putting their hats on.
 
@@ -54,8 +54,11 @@ This puts bitcoin in an awesome situation, doesn't it?
 
 The truth is that printing money is not the only way to destabilize the value of a currency. Volatility does it too. 
 
-In the following plot, you will see computed the moving relative volatility of bitcoin and a bunch of standard fiat currencies.
-
-
 ![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/vol-currencies.png?raw=true)
+
+In this plot you can see the computed moving volatility of Bitcoin and some standard currencies. It is computed taking a range of 112 days. The code used to this calculations can be found in [my github page](https://github.com/aljrico/bitcoin).
+
+Some argue that even though bitcoin is not at acceptable levels at this moment, it eventually will. Trying to predict whether the volatility will eventually drop at the levels of the other currencies would be difficult and unprecise, but above all: extremely **misleading**. So we are not going to do that in this article. The point to be extracted from this brief analysis is that bitcoin has *much* greater volatility than fiat currencies. Moreover, the volatility tends to change drastically over time. So even in periods of apparent calm, you can not be confident that the price would not start to dance wildly again. 
+
+The volatility of bitcoin might be a dealbreaker for some, or a tiny detail for others. But it is an issue to consider, because it erodes the confidence of people in the durability of its value. And this alone can prevent it from becoming a new currency standard.
 
