@@ -22,7 +22,7 @@ Considering all of the above, seems reasonable the current eagerness in spotting
 Over the past couple of years, we have witnessed an outstandingly sharp increase in bitcoin's value. This has sparkled a bunch of discussion over whether it is a bubble or not, and over its real value.
 
 
-![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/btc-hist-price.png?raw=true){:height="50%" width="50%"}
+![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/btc-hist-price.png?raw=true)
 
 Unlike most stocks, bitcoin is uncapable of provide returns. It is not uncapable because it is not working properly, it is because it was never inteded to produce any kind of profit, it was inteded to become *a currency*. And no currency byproducts profits by itself.
 
@@ -53,4 +53,9 @@ The algorithms and technology designed beneath bitcoin intends to put a cap on h
 This puts bitcoin in an awesome situation, doesn't it?
 
 The truth is that printing money is not the only way to destabilize the value of a currency. Volatility does it too. 
+
+In the following plot, you will see computed the moving relative volatility of bitcoin and a bunch of standard fiat currencies.
+
+
+![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/vol-currencies.png?raw=true)
 
