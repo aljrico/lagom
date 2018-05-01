@@ -5,32 +5,57 @@ categories:
 - blog
 ---
 
-In the early ages of humanity, people already love to interchange every kind of things they have crafted or found. Soon was found that a general mean of exchange (what we understand as *currency*) made trades far more feasible and efficient. Many curious things have served as currencies throughout history: sea shells, cows, cigarettes or even noodles packs.
+Since the early ages of humanity, people have loved to interchange every kind of things they have crafted or found. This interest has been keenly adopted on many different societies, fostering greater degree of specialisation within their populations and increasing their internal efficiency. Soon was found that a general mean of exchange (what we understand as *currency*) made trades far more feasible and efficient. This idea of general mean of exchange has been widely and thoroughtly applied in many socities, and in many different ways. Some funny examples have been sea shells, cows, cigarettes or even noodles packs.
 
-It is obvious that when currency is established as the standard mean of exchange, its value sky-rockets. And those who already possessed some of that currency might become utterly rich overnight. 
+Whenever an item is established as the standard mean of exchange within a society, everybody wants it. Everybody is working, trading and making decisions in order to get as much of that item. This is the power of a currency, and everybody is seeking this power. It is not just that the item has intrinsic value, it is not that this item can be actually used for something practical, it is that it has the power to *convince* everyone that has value. You may think that this is a delusion, but it is very powerful delusion.
 
-The whole point of mercantilism and the added value of trade is the efficiency of the market, where the needs and capabilities of many unconnected people can be met by the means of a common desire: their currency. Following that logic, the value of a currency can be gauged out of the usage it has on the people. Welath is not constructed by the interchange of goods between two very rich men, but with the continuous small-scale negotiation of millions of people, balancing the forces of the market. So, whenever any currency does not fulfill this funcitonality or its purpose is in doubt, non benefiting the mass, new alternatives are always put on the table. 
+Same thing happens to present currencies. Euros and dollars have no real intrinsic value. They have value because people think that have value. I want to possess dollars because I am very confident everyone is going to accept some acually valuable things in exchange of dollars. This is the thing.
 
-In the past decades, some branches of economy have argued that the lack of a gold standard, or any kind of objective and non-manipulable metric of wealth is leading the worldwide economy into a Ponzi scheme trap of ever-growing debt. Moreover, survivalists and conspiracy theorists love the gold standard, because it holds for them the promise of an ever-lasting stable currency in a governmental vacuum scenario. And it also prevents an out-of-hand money supply from the government, what could prevent disasters as the recent [hyperinflation of Zimbawe](https://en.wikipedia.org/wiki/Hyperinflation#Most_severe_hyperinflations_in_world_history).
+As the value of a currency resides in its usage, whenever you are facing the question of the *intrinsic value* of a currency, just gauge its power to convince people of its value. Not the value of the item itself.
 
-Despite that, some argue that the Gold Standard would not be the all-saver of todays economic dangers. Today's world is not the same as the world from a couple centuries ago; and today's issues can not be so easily addressed with a shiny piece of metal. Gold coins can very susceptible to scams; has little or no intrinsic value in our current society and it might be not of enough of that [precious](https://en.wikipedia.org/wiki/Gollum) metal for sustaining all world's economy. Some even discuss that *it lacks of nutritional value*, and that in a survavilist nightmare gold should be far down on the list of things to stuff in the bag before fleeing into the wilds.
+---
 
-Considering all of the above, seems reasonable the current eagerness in spotting beforehand whether some good is to become the [new gold](https://en.wikipedia.org/wiki/Bitcoin) of our era.
+But be aware, because that a currency is well established in a society does not mean that it will last forever.
+
+The whole point of mercantilism and the added value of trade is the efficiency of the market, where the needs and capabilities of many unconnected people can be met by the means of a common desire: their currency. Following that logic, the value of a currency can be gauged out of the usage it has on the people. Wealth is not constructed by the interchange of goods between two very rich men, but with the continuous small-scale negotiation of millions of people, balancing the forces of the market.
+
+It can happen, however, that a currency is not capable of fulfilling this usage anymore. And when this happens, make no mistake, new alternatives will be considered.
+
+---
+
+## The Gold Standard
+
+In most modern and ancient history, gold has been the most widely used standard currency between societies. And every other currency that has been established, was gauged in its value in *gold*. The mighty british Pound had value just because it could be exchanged by gold, not by itself. And because the british empire had a lot of gold, they could promise reliable and non-interrupted interchange between pounds and gold; and that made the pound to be valuable. They could not fool foreign invesotrs with passionate promises of futurue wealth, neither print more pounds to increase their apparent wealth; they had to prove their value with *gold*.
+
+Gold was the standard international measure of wealth until the XX century. In this century, almost the entire planet cut the links between their currencies and gold in one strike - [or maybe in two](https://en.wikipedia.org/wiki/Gold_standard) -.
+
+Nowadays, some people are wholeheartedly missing the gold standard.
+
+Some branches of economy have argued that the lack of a gold standard, or any kind of objective and non-manipulable metric of wealth, is leading the worldwide economy into a Ponzi scheme trap of ever-growing debt. 
+
+Not-so-academic survivalists and conspiracy theorists loved also the gold standard, because it held for them the promise of an ever-lasting stable currency in a governmental vacuum scenario. And it also prevents an out-of-hand money supply from the government, what could prevent disasters as the recent [hyperinflation of Zimbawe](https://en.wikipedia.org/wiki/Hyperinflation#Most_severe_hyperinflations_in_world_history).
+
+Despite that, some argue that the Gold Standard would not be the all-saver of todays economic dangers. Today's world is not the same as the world from a couple centuries ago; and today's issues can not be so easily addressed with a shiny piece of metal. Gold coins can very susceptible to scams; have little or no intrinsic value in our current society and it might be not of enough of that [precious](https://en.wikipedia.org/wiki/Gollum) metal for sustaining all world's economy. 
+
+And even some survivalists discuss that *it lacks of nutritional value*, and that in a survavilist nightmare gold should be far down on the list of things to stuff in the bag before fleeing into the wilds.
+
+Considering all of the above, you might be wondering whether some new shiny token is going to become the [new gold](https://en.wikipedia.org/wiki/Bitcoin) of our era.
 
 ---
 
 Over the past couple of years, we have witnessed an outstandingly sharp increase in bitcoin's value. This has sparkled a bunch of discussion over whether it is a bubble or not, and over its real value.
 
-
 ![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/btc-hist-price.png?raw=true)
 
-Unlike most stocks, bitcoin is uncapable of provide returns. It is not uncapable because it is not working properly, it is because it was never inteded to produce any kind of profit, it was inteded to become *a currency*. And no currency byproducts profits by itself.
+Unlike most stocks, bitcoin is uncapable of provide returns. It is not uncapable because it is not working properly, it is not because it was never inteded to produce any kind of profit, it was inteded to become *a currency*. And no currency byproducts profits by itself.
 
-Taking that into account, we must concede that the only value bitcoin has to offer it is its usage as a currency. So in order to assess whether it is overrated or not, we need to reckon a value, based on its feasability of becoming a mainstream currency.
+Aknowledging that, we must note that the only value bitcoin has to offer it is its usage as a currency. So in order to assess whether it is overrated or not, we need to reckon its value, based on its feasability of becoming a mainstream currency.
 
 # Can Bitcoin be a currency?
 
 In general, a currency needs to fulfill three crucial characteristics: It has to be useful as a means of exchange, it needs to store value and it needs to be a unit of account.
+
+So let's see whether or not bitcoin satisfies any of these conditions.
 
 ## Mean of Exchange
 
