@@ -61,19 +61,19 @@ So let's see whether or not bitcoin satisfies any of these conditions.
 
 Have you ever tried to buy something using *bitcoins*? Would you accept a payment on bitcoins?
 
-These are the main question to be answered on this issue. It will be a mean of exchange when it is used as a mean of exchange, when it proves it is useful for that. And bitcoin has a great advantage over physical currencies: Because of its digital origin and nature, bitcoins can be splitted in as tiny pieces as its needed; you can always add another 0 to a string of numbers. This might sound trivial, but it is not, and it is a logistic and thecnical problem, and a constraint for physical fiat currencies.
+These are the main question to be answered on this matter. It will be a mean of exchange when it proves that it is useful for that, and that it is actually used as a mean of exchange, not before. And bitcoin has a great advantage over physical currencies: Because of its digital origin and nature, bitcoins can be splitted in as tiny pieces as it's needed; you can always add another 0 to a string of numbers. This might sound trivial, but it is not, and it is a logistic and thecnical problem, and a constraint for physical fiat currencies.
 
-Nowadays, bitcoins are sometimes used to buy and sell goods. Bitcoin is oftenly used as an alternative method of converting currencies, and to avoid the big banks that thend to charge amazingly high fees upon currencies exchange. It is also used in a variety of transactions that require some degree of secrecy; which could be awesome for most anarchists.
+Nowadays, bitcoins are sometimes used to buy and sell goods. Bitcoin is oftenly used as an alternative method of converting currencies, and to avoid the big banks that thend to charge amazingly high fees upon currencies exchange. It is also utilised in a variety of transactions that require some degree of secrecy; which could be awesome for most anarchists.
 
-So yes, you can fairly think that bitcoin could be pretty useful as a mean of exchange.
+So *yes*, you can fairly think that bitcoin could be pretty useful as a mean of exchange.
 
 ## Storing Value
 
-This point is intended to be the flagship of the bitcoin's movement. This is the one where a lot of bitcoin's defenders are putting their hats on.
+This point was intended to be the flagship of the bitcoin's movement. This is the one where a lot of bitcoin's defenders are putting their hats on.
 
 When greedy governments become too reckless, it is no rare to see them printing money. A lot of money. Printing money has the collateral effect of devaluating the currency, leading to artificial inflation; which could eventually go downhill and trigger hyperinflation. These kind of scenarios jeopardizes the storage of wealth, the savings of the population and thus the confidence in that currency. If people does not belive in the reliability of their money and its value, they don't save up. If you wouldn't know how much your money would value tomorrow you'd be better spending anything on more reliable, durable and useful goods; such as houses, lands, livestock or whatever.
 
-The algorithms and technology designed beneath bitcoin intends to put a cap on how many bitcoins can exist and be created. This simple characteristics puts a great fence for those governemtns, difficulting their self-destructive behaviour and stabilizing the value of money.
+The algorithms and technology designed beneath bitcoin intends to put a cap on how many bitcoins can exist and be created. This simple characteristic puts a great fence for those governemtns, difficulting their self-destructive behaviour and stabilizing the value of money. In other words, it could do whta the gold standard was already doing. And so a bitcoin standard could serve as *a modern form of gold standard*.
 
 This puts bitcoin in an awesome situation, doesn't it?
 
@@ -83,9 +83,9 @@ The truth is that printing money is not the only way to destabilize the value of
 
 ![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/vol-currencies.png?raw=true)
 
-In this plot you can see the computed moving volatility of Bitcoin and some standard currencies. It is computed taking a range of 112 days. The code used to this calculations can be found in [my github page](https://github.com/aljrico/bitcoin).
+In this plot you can see the computed moving volatility of Bitcoin and some standard currencies. It is computed taking a range of 112 days. If you want more details, you can see the code of this calculations in [my github page](https://github.com/aljrico/bitcoin).
 
-Some argue that even though bitcoin is not at acceptable levels at this moment, it eventually will. Trying to predict whether the volatility will eventually drop at the levels of the other currencies would be difficult and unprecise, but above all: extremely **misleading**. So we are not going to do that in this article. The point to be extracted from this brief analysis is that bitcoin has *much* greater volatility than fiat currencies. Moreover, the volatility tends to change drastically over time. So even in periods of apparent calm, you can not be confident that the price would not start to dance wildly again. 
+Some argue that even though bitcoin is not at acceptable levels at this moment, it eventually will. Trying to predict whether the volatility will eventually drop at the levels of the other currencies would be difficult and unprecise, but above all: extremely **misleading**. So we are not going to do that in this article. The point to be extracted from this brief analysis is that bitcoin has *much* greater volatility than fiat currencies. Moreover, the volatility tends to change drastically over time. So even in periods of apparent calm, you can not be confident that the price would not start to dance wildly again. This implies that saving up money on bitcoins can be extremely risky.
 
 Some argue that huge fluctuacions of price is normal for any *young* currency with no banking support and no public understanding surrounding its nature. But it is still to be shown whether this fluctuations might dilude over time as those issues are addressed.
 
@@ -97,11 +97,11 @@ This rises some doubts upon wheter bitcoin can become a mean for storing value. 
 
 How many bitcoins are required to buy a pizza? How many bitcoins would be worth an hour of your time? How minimum amout of bitcoins would you accept as your salary?
 
-While people remain unable to answer those questions without having to convert it in $US or their local currency, bitcoin will not be a unit of account.
+While people remain unable to answer those questions without having to convert it in $US or their local currency, bitcoin will not be a unit of account. Period.
 
 The value of bitcoin is seldom talked about in relation to goods and services, it is always in terms of dollars. So dollars are the *Unit of Account* in this sense. Not the bitcoin. 
 
-Some argue that the Unit of Account vary from region to region or even from person to person. Euro is definitely a unit of account for people in Euro countries, and Yen is the unit of account for people in Japan. But that does not face my point, because nobody in no region on Earth uses Bitcoin as his Unit of Account. They'd always need a local or global currency to know the value of a Bitcoin, no by its own. This may change in some years, but it is not the present situation.
+Some argue that the Unit of Account vary from region to region or even from person to person. Euro is definitely a unit of account for people in Euro countries, and Yen is the unit of account for people in Japan. But that does not diminishes this point entirely, because nobody in no region on Earth uses Bitcoin as his *Unit of Account*. They'd always need a local or global currency to know the value of a Bitcoin, not by its own. This may change in some years, but it is not the present situation.
 
 Maybe because people is not using bitcoin so much in their every day lifes, or perhaps because of a lack of price stability; but it is clear that bitcoin is not being used as a *Unit of Account* yet. And does not look to being used as such in any near future.
 
@@ -111,6 +111,6 @@ At this moment, it seems that the people that has bitcoins make two very differe
 
 It is also true that blockchain decentralized programs have huge potential and people want to use them somehow.
 
-Cryptocurrencies - more broadly - hahve value in that the technology beneath them happens to be innovative and useful. The nature of their relationship to the users is unique in that it is a hybrid of the anonymity of cash and the ease of credit cards and the security of a vault. Also, in order to become more popular, these currencies need the applications built for them to become easier over time. Allowing the average guy to use them whils feeling *safe*.
+Cryptocurrencies - more broadly - have value in that the technology beneath them happens to be innovative and useful. The nature of their relationship to the users is unique in that it is a hybrid of the anonymity of cash and the ease of credit cards and the security of a vault. Also, in order to become more popular, these currencies need the applications built for them to become easier over time. Allowing the average guy to use them whils feeling *safe*.
 
 
