@@ -79,8 +79,6 @@ This puts bitcoin in an awesome situation, doesn't it?
 
 The truth is that printing money is not the only way to destabilize the value of a currency. Volatility does it too. 
 
-{% include image.html src="vol-currencies.png" title="vol-currencies" %}
-
 ![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/vol-currencies.png?raw=true)
 
 In this plot you can see the computed moving volatility of Bitcoin and some standard currencies. It is computed taking a range of 112 days. If you want more details, you can see the code of this calculations in [my github page](https://github.com/aljrico/bitcoin).
