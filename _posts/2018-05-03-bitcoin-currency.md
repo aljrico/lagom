@@ -5,6 +5,15 @@ categories:
 - blog
 ---
 
+Year 2008. An unidentifed person, nicknamed as [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), registers the domain [bitcoin.org](https://bitcoin.org) and later that year publishes a paper titled *Bitcoin: A Peer-To-Peer Electronic Cash System*. Claiming that a system for electronic transactions can be build without relying on trust of a centralised party.
+
+In January 2009, Satoshi Nakamoto releases the bitcoin network, mining the first ever block on the chain and embedding an ever-lasting message for all the users to come, before disappearing from public knowledge for good:
+
+> Yes, we will not find a solution to political problems in cryptography, but we can win a major battle in the arms race and gain a new territory of freedom.
+
+
+---
+
 Since the early ages of humanity, people have loved to interchange every kind of things they have crafted or found. This interest has been keenly adopted on many different societies, fostering greater degree of specialisation within their populations and increasing their internal efficiency. Soon was found that a general mean of exchange (what we understand as *currency*) made trades far more feasible and efficient. This idea of general mean of exchange has been widely and thoroughtly applied in many socities, and in many different ways. Some funny examples have been sea shells, cows, cigarettes or even noodles packs.
 
 Whenever an item is established as the standard mean of exchange within a society, everybody wants it. Everybody is working, trading and making decisions in order to get as much of that item as possible. This is the power of a currency, and everybody is seeking this power. It is not just that the item has intrinsic value, it is not that this item can be actually used for something practical, it is that it has the power to *convince* everyone that has value. You may think that this is a delusion, but it is very powerful delusion.
