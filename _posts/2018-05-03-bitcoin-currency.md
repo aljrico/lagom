@@ -16,23 +16,21 @@ In January 2009, Satoshi Nakamoto releases the bitcoin network, mining the very 
 
 # On Currencies
 
-Since the early ages of humanity, people have loved to interchange every kind of things they have crafted or found. This interest has been keenly adopted on many different societies, fostering greater degree of specialisation within their populations and increasing their internal efficiency. Soon was found that a general mean of exchange (what we understand as *currency*) made trades far more feasible and efficient. This idea of general mean of exchange has been widely and thoroughtly applied in many socities, and in many different ways. Some funny examples have been sea shells, cows, cigarettes or even noodles packs.
+Since the early ages of humanity, people have loved to interchange every kind of things they have crafted or found. This interest in trading has always been keenly adopted on many different societies, fostering specialisation, cultural flowing, communication and permeability between and within populations. Soon was found that a general mean of exchange (what we understand as *currency*) made trades far more feasible and efficient. This idea of general mean of exchange has been widely and thoroughtly applied in many socities, and in many different ways. Some funny examples have been sea shells, cows, cigarettes or even noodles packs.
 
-Whenever an item is established as the standard mean of exchange within a society, everybody wants it. Everybody is working, trading and making decisions in order to get as much of that item as possible. This is the power of a currency, and everybody is seeking this power. It is not just that the item has intrinsic value, it is not that this item can be actually used for something practical, it is that it has the power to *convince* everyone that has value. You may think that this is a delusion, but it is very powerful delusion.
+Whenever an item is established as the standard mean of exchange within a society, everybody wants it. Everybody is working, trading and making decisions in order to get as much of that item as possible. This is the power of a currency. It is not just that the item has intrinsic value, it is not that this item can be actually used for something practical, it is that it has the power to *convince* everyone that has value. You may think that this is a delusion, but it is very powerful delusion.
 
-Same thing happens to present currencies. Euros and dollars have no real intrinsic value. They have value because people think that have value. I want to possess dollars because I am very confident everyone is going to accept some acually valuable things in exchange of dollars. This is the thing.
-
-As the value of a currency resides in its usage, whenever you are facing the question of the *intrinsic value* of a currency, just gauge its power to convince people of its value. Not the value of the item itself.
+Same thing happens to present currencies. Euros and dollars have no real intrinsic value. They have value because people think they have value. If I want to possess dollars is because I am very confident everyone is going to accept some acually valuable things in exchange of dollars. And while each one of us feels the same way, all together -collectively- contribute to the increase in the acceptance, usage and *value* of that currency.
 
 ---
 
-But be aware, because that a currency is well established in a society does not mean that it will last forever.
+But notwhithstanding, that a currency is well established in a society does not imply that it will last forever.
 
-The whole point of mercantilism and the added value of trade is the efficiency of the market, where the needs and capabilities of many unconnected people can be met by the means of a common desire: their currency. Following that logic, the value of a currency can be gauged out of the usage it has on the people. Wealth is not constructed by the interchange of goods between two very rich men, but with the continuous small-scale negotiation of millions of people, balancing the forces of the market.
+The whole point of mercantilism and the added value of trade is the efficiency of the market, where the needs and capabilities of many unconnected people can be met by the means of a common desire: their currency. And because of that, the value of a currency can be gauged out of the usage it has on the people. Wealth is not constructed by the interchange of goods between two very rich men, but with the continuous small-scale negotiation of millions of people, balancing the forces of the market.
 
-It can happen, however, that a currency is not capable of fulfilling this usage anymore. And when this happens, make no mistake, new alternatives will be considered.
+It can happen, however, that a currency is not capable of fulfilling this usage anymore. And when this happens, make no mistake, new alternatives will be always on the table.
 
----
+Whenever you are facing the question of the *intrinsic value* of currencies, first consider their power to convince people of their value. Not the practical usage of the item itself.
 
 # The Gold Standard
 
