@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is Bitcoin overrated?
+title: The value of Bitcoin
 categories:
 - blog
 ---
