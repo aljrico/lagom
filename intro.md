@@ -2,7 +2,7 @@
 layout: post
 title: Intro
 categories:
-- blog
+- intro
 ---
 
-Lol, this is a **test**.
+Hi! Welcome to my personal page. My name is <bold>Alejandro Jiménez Rico</bold>. I am a physicist interested in Finance and its mathematics, Videogame Design, Biology, Medicine and any kind of Social or Natural Sciences. But above all, I enjoy learning about *Data Science*.
