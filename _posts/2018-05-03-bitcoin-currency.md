@@ -5,7 +5,7 @@ categories:
 - blog
 ---
 
-Year 2008. An unidentifed person, nicknamed as [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), registers the domain [bitcoin.org](https://bitcoin.org) and later that year publishes a paper titled *Bitcoin: A Peer-To-Peer Electronic Cash System*. Claiming that a system for electronic transactions can be build without relying on trust of a centralised party.
+Year 2008. An unidentifed person, nicknamed as [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), registers the domain [bitcoin.org](https://bitcoin.org) and publishes a paper titled *Bitcoin: A Peer-To-Peer Electronic Cash System*. Claiming that a system for electronic transactions can be build without relying on trust of a centralised party.
 
 In January 2009, Satoshi Nakamoto releases the bitcoin network, mining the first ever block on the chain and embedding an ever-lasting message for all the users to come, before disappearing from public knowledge for good:
 
