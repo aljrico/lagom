@@ -30,7 +30,7 @@ The whole point of mercantilism and the added value of trade is the efficiency o
 
 It can happen, however, that a currency is not capable of fulfilling this usage anymore. And when this happens, make no mistake, new alternatives will be always on the table.
 
-Whenever you are facing the question of the *intrinsic value* of currencies, first consider their power to convince people of their value. Not the practical usage of the item itself.
+Whenever you are facing the question of the *intrinsic value* of currencies, first consider their power to convince people of their value. Not the practical usage of the actual item.
 
 # The Gold Standard
 
@@ -44,7 +44,7 @@ Some branches of economy have argued that the lack of a gold standard, or any ki
 
 Not-so-academic survivalists and conspiracy theorists loved also the gold standard, because it held for them the promise of an ever-lasting stable currency in a governmental vacuum scenario. And it also prevents an out-of-hand money supply from the government, what could prevent disasters as the recent [hyperinflation of Zimbawe](https://en.wikipedia.org/wiki/Hyperinflation#Most_severe_hyperinflations_in_world_history).
 
-Despite that, some argue that the Gold Standard would not be the all-saver of todays economic dangers. Today's world is not the same as the world from a couple centuries ago; and today's issues can not be so easily addressed with a shiny piece of metal. Gold coins can very susceptible to scams; have little or no intrinsic value in our current society and it might be not of enough of that [precious](https://en.wikipedia.org/wiki/Gollum) metal for sustaining all world's economy. 
+Despite that, some argue that the Gold Standard would not be the all-saver of todays economic dangers. Today's world is not the same as the world from a couple centuries ago; and today's issues can not be so easily addressed with a shiny piece of metal. Gold coins can be very susceptible to scams; have little or no intrinsic value in our current society and it might arrive the day when we will not have enough of that [precious](https://en.wikipedia.org/wiki/Gollum) metal for sustaining all world's economy. 
 
 And even some survivalists discuss that *it lacks of nutritional value*, and that in a survavilist nightmare gold should be far down on the list of things to stuff in the bag before fleeing into the wilds.
 
@@ -52,13 +52,13 @@ Considering all of the above, you might be wondering whether some new shiny toke
 
 ---
 
-Over the past couple of years, we have witnessed an outstandingly sharp increase in bitcoin's value. This has sparkled a bunch of discussion over whether it is a bubble or not, and over its real value.
+Over the past couple of years, we have witnessed an outstandingly sharp increase cryptocurrencies price, but especially in bitcoin's. This has sparkled a bunch of discussion upon whether it is a bubble or not, and on its real value.
 
 ![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/btc-hist-price.png?raw=true)
 
 Unlike most stocks, bitcoin is uncapable of provide returns. It is not uncapable because it is not working properly, it is not because it was never inteded to produce any kind of profit, it was inteded to become *a currency*. And no currency byproducts profits by itself.
 
-Aknowledging that, we must note that the only value bitcoin has to offer it is its usage as a currency. So in order to assess whether it is overrated or not, we need to reckon its value, based on its feasability of becoming a mainstream currency.
+Aknowledging that, we must note that the only value bitcoin has to offer is its usage as a currency. So in order to assess whether it is overrated or not, we need to reckon its value, based on its feasability of becoming a mainstream currency.
 
 # Can Bitcoin be a currency?
 
@@ -114,10 +114,12 @@ Maybe because people is not using bitcoin so much in their every day lifes, or p
 
 ---
 
-At this moment, it seems that the people that has bitcoins make two very different uses out of it. It either expects to avoid taxes or fees, or it expects its value to grow higher and make some profit. The latter use is what inflates speculatives bubbles. 
+
+
+[//]: # (At this moment, it seems that the people that has bitcoins make two very different uses out of it. It either expects to avoid taxes or fees, or it expects its value to grow higher and make some profit. The latter use is what inflates speculatives bubbles. 
 
 It is also true that blockchain decentralized programs have huge potential and people want to use them somehow.
 
-Cryptocurrencies - more broadly - have value in that the technology beneath them happens to be innovative and useful. The nature of their relationship to the users is unique in that it is a hybrid of the anonymity of cash and the ease of credit cards and the security of a vault. Also, in order to become more popular, these currencies need the applications built for them to become easier over time. Allowing the average guy to use them whils feeling *safe*.
+Cryptocurrencies - more broadly - have value in that the technology beneath them happens to be innovative and useful. The nature of their relationship to the users is unique in that it is a hybrid of the anonymity of cash and the ease of credit cards and the security of a vault. Also, in order to become more popular, these currencies need the applications built for them to become easier over time. Allowing the average guy to use them whils feeling *safe*.)
 
 
