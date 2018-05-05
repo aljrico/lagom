@@ -14,6 +14,8 @@ In January 2009, Satoshi Nakamoto releases the bitcoin network, mining the very 
 
 ---
 
+# On Currencies
+
 Since the early ages of humanity, people have loved to interchange every kind of things they have crafted or found. This interest has been keenly adopted on many different societies, fostering greater degree of specialisation within their populations and increasing their internal efficiency. Soon was found that a general mean of exchange (what we understand as *currency*) made trades far more feasible and efficient. This idea of general mean of exchange has been widely and thoroughtly applied in many socities, and in many different ways. Some funny examples have been sea shells, cows, cigarettes or even noodles packs.
 
 Whenever an item is established as the standard mean of exchange within a society, everybody wants it. Everybody is working, trading and making decisions in order to get as much of that item as possible. This is the power of a currency, and everybody is seeking this power. It is not just that the item has intrinsic value, it is not that this item can be actually used for something practical, it is that it has the power to *convince* everyone that has value. You may think that this is a delusion, but it is very powerful delusion.
@@ -32,7 +34,7 @@ It can happen, however, that a currency is not capable of fulfilling this usage 
 
 ---
 
-## The Gold Standard
+# The Gold Standard
 
 In most modern and ancient history, gold has been the most widely used standard currency between societies. And every other currency that has been established, was gauged in its value in *gold*. The mighty british Pound had value just because it could be exchanged by gold, not by itself. And because the british empire had a lot of gold, they could promise reliable and non-interrupted interchange between pounds and gold; and that made the pound to be valuable. They could not fool foreign invesotrs with passionate promises of futurue wealth, neither print more pounds to increase their apparent wealth; they had to prove their value with *gold*.
 
