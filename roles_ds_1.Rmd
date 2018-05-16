@@ -1,21 +1,26 @@
 ---
+output:
+  md_document: default
+  html_document: default
+---
+---
 layout: post
-title: The roles of Data Science I. Description
+title: Optimizing drugs distribution in a developing country
 categories:
 - blog
 output:
   md_document:
     variant: markdown_github
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
-```{r}
-plot(cars)
-```
+In this post I will try exemplify how **Data Science** can be of great help when trying to address real-world problems. Today we'll optimize drugs distribution of some uknown place, just looking at the raw data provided by the medical services in place.
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+Even though we are not trying to usurpe the role of Physicians in their field, we'll try to show how useful can be the application of Data Science techniques in order to *cooperate* with Medical Services. Especially in scenarios of scarcity or emergency, where medical specialists are having a hard time dealing with huge loads of people in need of their help. In this extreme situations, decision-making processes are more critical than ever.
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+# Fetching Data
+
+First of all, let's grab all data we can put our hands on. For the sake of the example, I came with three different .csv files with medical records or general information. Disorganized, untidy, messy and imperfect.
+
+
