@@ -34,7 +34,5 @@ show_atom_feed: true
 
 # Menu
 menu:
-- {name: 'About Me', path: 'menu', url: '../../'}
-- {name: 'Tech Stuff', path: 'menu', url: 'tech'}
-- {name: 'Design', path: 'menu', url: 'design'}
-- {name: 'Tags', path: 'menu', url: '../tags'}
+- {name: 'About Me', path: 'menu', url: 'about'}
+- {name: 'My CV', path: 'menu', url: 'cv'}
