@@ -14,11 +14,9 @@
     <hr>
   </div>
   <div class="menu">
-  	<nav class="menu-content">
     {% for item in site.data.theme.menu %}
       <center><p><a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a></p></center>
     {% endfor %}
-  	</nav>
   </div>
 	    <hr>
   <div id="social">
