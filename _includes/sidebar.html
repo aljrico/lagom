@@ -14,6 +14,14 @@
     <center><a href = "{{site.github.rul}}/cv"> About Me</a></center>
     <br>
   </div>
+  <div class="menu">
+  	<nav class="menu-content">
+    {% for item in site.data.theme.menu %}
+      <a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+  </div>
+
   <div id="social">
     {% include social.html %}
   </div>

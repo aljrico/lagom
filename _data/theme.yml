@@ -31,3 +31,10 @@ show_disclaimer: true
 
 # Toggle link/icon to view atom feed (/atom.xml) in sidebar
 show_atom_feed: true
+
+# Menu
+menu:
+- {name: 'About Me', path: 'menu', url: '../../'}
+- {name: 'Tech Stuff', path: 'menu', url: 'tech'}
+- {name: 'Design', path: 'menu', url: 'design'}
+- {name: 'Tags', path: 'menu', url: '../tags'}
