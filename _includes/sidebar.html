@@ -1,30 +1,4 @@
-<script>
-  $(function(){
-  $(".drawer--left").drawer({
-    class: {
-      nav: 'drawer-nav--left',
-      toggle: 'drawer-toggle--left',
-      overlay: 'drawer-overlay',
-      open: 'drawer-open',
-      close: 'drawer-close',
-      dropdown: 'drawer-dropdown'
-    }
-  });
-
-    $("#openRight").on("click",function(){
-  	drawerRight();
-  });
-});
-function drawerRight(){
-  $("#right").drawer("open");
-}
-</script>
-
-<div class = "drawer drawer--left">
-  <button type="button" class="drawer-toggle drawer-hamburger drawer-toggle--left">
-    <span class="sr-only">toggle navigation</span>
-    <span class="drawer-hamburger-icon"></span>
-  </button>
+<div class = "sidebar">
   <nav>
     <a href="/">
       {% if site.data.theme.social.gravatar %}
