@@ -1,20 +1,26 @@
-<nav>
-  <h1>Hi.</h1>
-  <a href="/">
-    {% if site.data.theme.social.gravatar %}
-    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
-    {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
-    {% endif %}
-  </a>
-  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
-  <div id="bio">
-    <p>A brief bio or something witty.</p>
-    <p>
-      Edit me in <code>_includes/sidebar.html</code>
-    </p>
-  </div>
-  <div id="social">
-    {% include social.html %}
-  </div>
-</nav>
+<div class = "sidebar">
+  <nav>
+    <a href="/">
+      {% if site.data.theme.social.gravatar %}
+      <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+      {% else %}
+      <img src="/profile.png" id="logo" alt="Blog logo"/>
+      {% endif %}
+    </a>
+    <h2>Alejandro Jiménez Rico</h2>
+    <div id="bio">
+      <center><p>Data Scientist</p></center>
+      <hr>
+      <p>I promise I'll try to focus</p>
+      <hr>
+    </div>
+    <div class="menu">
+      {% for item in site.data.theme.menu %}
+        <center><p><a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a></p></center>
+      {% endfor %}
+    </div>
+        <hr>
+    <div id="social">
+      {% include social.html %}
+    </div>
+  </nav></div>
