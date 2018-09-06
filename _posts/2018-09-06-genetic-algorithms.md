@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Genetic Algorithms: Solving the N-Queens problem"
+title: "Genetic Algorithms - Solving the N-Queens problem"
 categories:
 - blog
 output:
