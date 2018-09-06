@@ -9,7 +9,7 @@ categories:
 
 ## Purpose
 
-Throughout this kernel, I aim to provide with a very simple replicable and practical manual on how to use Genetic Algorithms on optimisation problems. During this, I'll try to outline the philosophy of applying Genetic Algorithms (GA) and the implications of the many decisions involved in building such algorithms. With this goal in mind, we are going to solve the generalised **8-queens** problem using three slightly different customized GA algorithms and comparing its advantages and weaknesses; this way getting a glimpse of the crucial points of building a proper GA model.
+Throughout this article, I aim to provide with a very simple replicable and practical manual on how to use Genetic Algorithms on optimisation problems. During this, I'll try to outline the philosophy of applying Genetic Algorithms (GA) and the implications of the many decisions involved in building such algorithms. With this goal in mind, we are going to solve the generalised **8-queens** problem using three slightly different customized GA algorithms and comparing its advantages and weaknesses; this way getting a glimpse of the crucial points of building a proper GA model.
 
 By its nature, the N-queens problem is not easily solvable using Genetic Algorithms, and you might finde much more suitable algorithms for this particular problem. Nevertheless, This work might be useful as a general tutorial on learning how to apply GA on any problem.
 
@@ -738,7 +738,7 @@ Despite this discouragment, further investigation can be made applying these mod
 
 # Further Reading
 
-If you have enjoyed this kernel, you might be interested in reading further on Genetic Algorithms. Genetic Algorithms is a kind of optimisation algorithm that is englobed within the concept of metaheuristics. For anyone interested in the subject, I highly recomment the following books. I can not stress enough how useful they are.
+If you have enjoyed this article, you might be interested in reading further on Genetic Algorithms. Genetic Algorithms is a kind of optimisation algorithm that is englobed within the concept of metaheuristics. For anyone interested in the subject, I highly recomment the following books. I can not stress enough how useful they are.
 
 * [Handbook of Metaheuristics](https://amzn.to/2M0rFNr)
 * [Handbook of Natural Computing](https://amzn.to/2wPFGsk)
