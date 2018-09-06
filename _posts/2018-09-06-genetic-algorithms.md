@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Genetic Algorithms - Solving the N-Queens problem"
+title: "Genetic Algorithms: Solving the N-Queens problem"
 categories:
 - blog
-output:
-  html_document: 
-    keep_md: true
 ---
 
 <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRicSd_V9azOV_tAH5Ts9BkdJb1IQMz8tuNeZUIDjf0RuAjOV7jUw"></center>
