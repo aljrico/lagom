@@ -1,23 +1,49 @@
 ---
 layout: default
-title: Blog Posts
+title: Home
+comments: True
 ---
 
-<div id="home">
-  <h2><i class="fa fa-angellist"></i> Welcome!</h2>
-  		<div class="intro">
-  			<p>Hi! I'm <strong>Alejandro Jiménez Rico</strong>. </p>
-  			<p>I graduated as a physicist, started working in Financial Industry and eventually did find my passion in <strong>Data Science</strong>.</p>
-				<p>	Within this website I'll try to post and explain some of my work and discuss its application. More generally you may find random posts about any topic that I find interesting.</p>
-				<p>You can take a look at my <a href="https://aljrico.github.io/cv/">CV</a>.</p>
-  		</div>
+{% include comments_count.html %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+      <div class="excerpt">
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">{{ site.theme.str_continue_reading }}</a>
+        <span class="comments-count">
+          <a class="comments-count-icon"><i class="fa fa-comment"></i></a>
+          <a href="{{ post.url }}#disqus_thread"> Comments</a>
+        </span>
+      </div>
+  </div>
+  <hr></hr>
+  {% endfor %}
 </div>
 
-<div id="home">
-  <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
-  <ul id="blog-posts" class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
+
