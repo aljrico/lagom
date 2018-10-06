@@ -4,14 +4,7 @@ title:               Alejandro J Rico
 tagline:             'Jibber Jabber'
 description:         'Technical projects and random thoughts by Alejandro J Rico'
 url:                 https://aljrico.github.io
-baseurl:             /
-paginate:            5
- # Pages
-pages:
-  Archive: '/archive'
-  About: '/about'
-  Tags: '/tags'
- # About/contact
+
 author:
   name:              'Alejandro Jimenez Rico'
   url:               https://aljrico.github.io
