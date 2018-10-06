@@ -2,16 +2,13 @@
 layout: default
 ---
 
-<p class="meta">
-  {{ page.date | date: "%Y %B %d" }}
-  <a href="/">
-    <i class="home fa fa-home"></i>
-  </a>
-</p>
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-title-footer">
+    <p class="meta">
+  {{ page.date | date: "%Y %B %d" }}
+</p>
   <span class="post-tag-box" style="display:inline-block;">
    {% for item in (0..page.tags.size) %}{% unless forloop.last %}
      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
