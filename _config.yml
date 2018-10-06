@@ -11,7 +11,6 @@ pages:
   Archive: '/archive'
   About: '/about'
   Tags: '/tags'
-  CV: '/cv'
  # About/contact
 author:
   name:              'Alejandro Jimenez Rico'
