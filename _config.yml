@@ -3,7 +3,7 @@
 title:               Alejandro J Rico
 tagline:             'I promise I'll try to focus
 description:         'Technical projects and random thoughts by Alejandro J Rico'
-url:                 https://aljrico.github.io/
+url:                 https://aljrico.github.io
 baseurl:             /
 paginate:            5
  # Pages
@@ -14,7 +14,7 @@ pages:
  # About/contact
 author:
   name:              'Alejandro Jimenez Rico'
-  url:               https://aljrico.github.io/
+  url:               https://aljrico.github.io
  github:
   repo:              https://github.com/aljrico/aljrico.github.io
  sass:
