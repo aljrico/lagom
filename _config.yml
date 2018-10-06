@@ -2,7 +2,17 @@
 markdown:            redcarpet
 highlighter:         pygments
 
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-url: http://aljrico.github.io
-lsi: false
+# Setup
+title:               Alejandro J Rico
+tagline:             'Technical thoughts, mostly'
+description:         'Technical projects and notes by Alejandro J Rico'
+url:                 http://aljrico.github.io
+baseurl:             /
+paginate:            5
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
