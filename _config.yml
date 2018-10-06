@@ -1,12 +1,8 @@
-# Dependencies
+# General Jekyll Config
 highlighter: rouge
-
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
+url: http://aljrico.github.io
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 # Setup
 title:               Alejandro J Rico
 tagline:             'I promise I'll try to focus
