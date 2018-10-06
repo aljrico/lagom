@@ -1,5 +1,3 @@
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
 # Setup
 title:               Alejandro J Rico
