@@ -4,4 +4,31 @@ url: http://aljrico.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
+# Setup
+title:               Alejandro J Rico
+tagline:             'I promise I'll try to focus
+description:         'Technical projects and random thoughts by Alejandro J Rico'
+url:                 https://aljrico.github.io/
+baseurl:             /
+paginate:            5
+ # Pages
+pages:
+  Archive: '/archive'
+  About: '/about'
+  Tags: '/tags'
+  CV: '/cv'
+ # About/contact
+author:
+  name:              'Alejandro Jimenez Rico'
+  url:               https://aljrico.github.io/
+ github:
+  repo:              https://github.com/aljrico/aljrico.github.io
+ sass:
+  sass_dir: _sass
+  style: :compressed
+ # Theme
+theme: ""
+  # Localization Strings
+ str_continue_reading: "Continue reading..."
+
 
