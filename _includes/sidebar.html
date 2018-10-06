@@ -1,40 +1,26 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% endif %}
+<div class = "sidebar">
+  <nav>
+    <a href="/">
+      {% if site.data.theme.social.gravatar %}
+      <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+      {% else %}
+      <img src="/profile.png" id="logo" alt="Blog logo"/>
       {% endif %}
-    {% endfor %}
-  </nav>
-
-  <div class="sidebar-item">
-    <p class="social-icons">
-       <a href="https://github.com/ragupappu"><i class="fa fa-github fa-2x"></i></a>
-       <a href="https://twitter.com/ragupappu"><i class="fa fa-twitter fa-2x"></i></a>
-       <a href="https://www.linkedin.com/in/rpappu"><i class="fa fa-linkedin fa-2x"></i></a>
-       <a href="/atom.xml"><i class="fa fa-rss fa-2x"></i></a>
-       </p>
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div>
-</div>
+    </a>
+    <h2>Alejandro Jiménez Rico</h2>
+    <div id="bio">
+      <center><p>Data Scientist</p></center>
+      <hr>
+      <p>I promise I'll try to focus</p>
+      <hr>
+    </div>
+    <div class="menu">
+      {% for item in site.data.theme.menu %}
+        <center><p><a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a></p></center>
+      {% endfor %}
+    </div>
+        <hr>
+    <div id="social">
+      {% include social.html %}
+    </div>
+  </nav></div>
