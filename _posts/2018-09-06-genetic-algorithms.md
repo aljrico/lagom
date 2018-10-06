@@ -92,7 +92,7 @@ The number of solutions for the 8-queens version is $92$. This number increases 
 The most common and reasonable way to address this is to define a *fitness* function. The fitness is telling us, in some sense, how *good* this individual is. 
 Provided that our goal is to obtain an individual with *0* dead queens, we could set our fitness function as the inverse of the number of dead queens. Or 
 
-$$ F(x) = \frac{1}{1 + x}$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=F(x)&space;=&space;\frac{1}{1&space;&plus;&space;x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F(x)&space;=&space;\frac{1}{1&space;&plus;&space;x}" title="F(x) = \frac{1}{1 + x}" /></a>
 
 if we want to avoid divergences. This way, our fitness function reaches a maximum of *F=1* whenever the number of dead queens is *0*.
 
