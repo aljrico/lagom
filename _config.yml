@@ -1,5 +1,8 @@
-# General Jekyll Config
-highlighter: rouge
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+
 url: http://aljrico.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
