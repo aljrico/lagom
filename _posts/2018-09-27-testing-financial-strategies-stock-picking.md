@@ -282,7 +282,7 @@ This is going to serve as a benchmark. It is a quite dumb one, but any strategy 
 
 Both praised and demonized, the PER is one of the most famous financial ratios that is studied in the stock market. This metric tells you how many years you should wait to recover your investment in case you would be getting paid the proportional revenue of the company. 
 
-$$PER = \frac{Price*CommonStock}{TotalRevenue}$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=PER&space;=&space;\frac{Price*CommonStock}{TotalRevenue}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PER&space;=&space;\frac{Price*CommonStock}{TotalRevenue}" title="PER = \frac{Price*CommonStock}{TotalRevenue}" /></a>
 
 It sounds kind of logic that the price of a stock should correlate with its capacitity of generating revenue. What it is a company if not a machine that inputs some money and outputs even more money? Therefore, it does not seem crazy to evaluate the *fair value* of a company based on its revenue. However, there is a lot of controversy on whether this ratio is useful or not for fundamental analysis. Amongst other things, some people claim that the revenue of a company is one of the metrics that can be more easily manipulated and hence we shouldn't rely any decision based on them.
 
@@ -310,7 +310,7 @@ I know this is trategy is utterly simplistic and that we can not base all our fu
 
 The natural evolution of the PER is the EV/EBITDA, for *Enterprise Value over Earnings Before Intereses Taxes Depreciation and Amortization*. It kind of measures the same thing but in a smarter more sophisticated way. It avoids using the revenue metrics - as they are less reliable - and it takes into account more metrics to compute the Enterprise Value than simply the Price. The formula would be like this:
 
-$$EV/EBITDA = \frac{Price*CommonStock + PreferredStock + MinorityInterest + LongTermDebt - CashAndCashEquivalents}{EarningsBeforeInterestandTaxes}$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=EV/EBITDA&space;=&space;\frac{Price*CommonStock&space;&plus;&space;PreferredStock&space;&plus;&space;MinorityInterest&space;&plus;&space;LongTermDebt&space;-&space;CashAndCashEquivalents}{EarningsBeforeInterestandTaxes}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?EV/EBITDA&space;=&space;\frac{Price*CommonStock&space;&plus;&space;PreferredStock&space;&plus;&space;MinorityInterest&space;&plus;&space;LongTermDebt&space;-&space;CashAndCashEquivalents}{EarningsBeforeInterestandTaxes}" title="EV/EBITDA = \frac{Price*CommonStock + PreferredStock + MinorityInterest + LongTermDebt - CashAndCashEquivalents}{EarningsBeforeInterestandTaxes}" /></a>
 
 Lately, it has become the new preference for simplistic fundamental analysis in order to label companies as "cheap" or "expensive".
 
@@ -335,7 +335,7 @@ This strategy diverges a bit from the philosophy of the other two. It is the con
 
 Having said that, we could think as "cheap" a company that gives you a lot of dividends for a very small price. And we have already established a sophisticated way of computing the "price" of a company. So we can compute this ratio
 
-$$\frac{Price*CommonStock + PreferredStock + MinorityInterest + LongTermDebt - CashAndCashEquivalents}{DividendsPaid}$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{Price*CommonStock&space;&plus;&space;PreferredStock&space;&plus;&space;MinorityInterest&space;&plus;&space;LongTermDebt&space;-&space;CashAndCashEquivalents}{DividendsPaid}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{Price*CommonStock&space;&plus;&space;PreferredStock&space;&plus;&space;MinorityInterest&space;&plus;&space;LongTermDebt&space;-&space;CashAndCashEquivalents}{DividendsPaid}" title="\frac{Price*CommonStock + PreferredStock + MinorityInterest + LongTermDebt - CashAndCashEquivalents}{DividendsPaid}" /></a>
 
 and simply say that the larger this number is, the better. Therefore, we do the same as always, we compute this number at the beginning of each and every month, we sort the list of companies based on this number in dreceasing order and we pick the top of the list.
 
@@ -358,7 +358,7 @@ Since we've got explained some quite convincing ideas, I thought that would be i
 
 The formula would be the following:
 
-$$\frac{EarningsBeforeInterestandTaxes*DividendsPaid}{Price*CommonStock + PreferredStock + MinorityInterest + LongTermDebt - CashAndCashEquivalents}$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{EarningsBeforeInterestandTaxes*DividendsPaid}{Price*CommonStock&space;&plus;&space;PreferredStock&space;&plus;&space;MinorityInterest&space;&plus;&space;LongTermDebt&space;-&space;CashAndCashEquivalents}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{EarningsBeforeInterestandTaxes*DividendsPaid}{Price*CommonStock&space;&plus;&space;PreferredStock&space;&plus;&space;MinorityInterest&space;&plus;&space;LongTermDebt&space;-&space;CashAndCashEquivalents}" title="\frac{EarningsBeforeInterestandTaxes*DividendsPaid}{Price*CommonStock + PreferredStock + MinorityInterest + LongTermDebt - CashAndCashEquivalents}" /></a>
 
 Note that since we'll decide based on a ranking, this combined metric does not depend so much on scale, and it takes into account both Dividends and Revenues equally.
 
