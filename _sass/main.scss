@@ -13,6 +13,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.2px;
+  color: #3B5460;
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 body {
   font-size: 1.1vw;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 10000px) {
   body {
     font-size:1.15rem;
   }
@@ -36,7 +37,7 @@ body {
 pre {
   font-size: 1.1vw;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 10000px) {
   pre {
     font-size:1.15rem;
   }
