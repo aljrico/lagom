@@ -12,7 +12,7 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
 # Pages
 pages:
-  Archive: '/archive'
+  Blog Archive: '/blog'
   About: '/about'
   Tags: '/tags'
 
