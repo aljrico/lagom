@@ -3,8 +3,8 @@ highlighter:         pygments
 
 # Setup
 title:               Alejandro J Rico
-tagline:             'Technical thoughts, mostly'
-description:         'Technical projects and notes by Alejandro J Rico'
+tagline:             'Notes, thoughts and personal projects'
+description:         'Notes, thoughts and peronsal projects of Alejandro Jimenez Rico'
 url:                 http://aljrico.github.io
 baseurl:             /
 paginate:            5
