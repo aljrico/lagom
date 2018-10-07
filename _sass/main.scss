@@ -25,29 +25,31 @@ body {
 /*   https://css-tricks.com/viewport-sized-typography/
 /*****************************************************************************/
 body {
-  font-size: 1.6vw;
+  font-size: 1.1vw;
 }
 @media screen and (max-width: 1000px) {
   body {
-    font-size:20px;
+    font-size:1.15rem;
   }
 }
 
 pre {
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 @media screen and (max-width: 1000px) {
   pre {
-    font-size:16px;
+    font-size:1.15rem;
   }
 }
 /* end Viewport Sized Topography code */
 
 @media (min-width: 38em) {
   html {
-    font-size: 18px;
+    font-size: 1.15rem;
   }
 }
+
+
 
 /*****************************************************************************/
 /*
@@ -70,12 +72,20 @@ pre {
   }
 }
 
+@media (min-width: 96em) {
+  .container {
+    max-width: 80%;
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+}
+
 .center {
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h5 {
@@ -92,7 +102,7 @@ code {
   padding: .20em .20em;
   background-color: #eeeeee;
   border-radius: 3px;
-  font-size: 100%;
+  font-size: 90%;
 }
 
 pre {
@@ -104,7 +114,7 @@ pre {
 
 pre code {
   color: #101010;
-  font-size: 95%;
+  font-size: 75%;
 }
 
 
@@ -115,7 +125,7 @@ pre code {
 /*****************************************************************************/
 
 .masthead-title small {
-  font-size: 70%;
+  font-size: 75%;
 }
 
 /*****************************************************************************/
@@ -167,16 +177,16 @@ pre code {
 .page-title,
 .post-title,
 .post-title a {
-  color: #707070;
+  color: #4a6978;
 }
 .page-title,
 .post-title {
-  font-size: 180%;
+  font-size: 200%;
 }
 
 /* Meta data line below post title */
 .post-date {
-  color: #7a7a7a;
+  color: #4a6978;
   font-size: 85%;
 }
 
@@ -187,11 +197,11 @@ pre code {
 }
 
 .related-heading {
-  color: #666
+  color: #4a6978
 }
 
 .related-posts li small {
-  font-size: 70%;
+  font-size: 50%;
 }
 
 /* Gist via GitHub Pages */
