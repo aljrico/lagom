@@ -3,6 +3,7 @@ layout: post
 title: The usage of Behaviorism in videogames
 categories:
 - blog
+comments: True
 ---
 
 Have you ever felt the sensation of playing a videogame *way* past the point where it was fun? Have you ever finished a game, and then looked back a few weeks later and thought *What the hell was I doing with my life*? Why does that happen? 
