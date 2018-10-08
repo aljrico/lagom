@@ -65,6 +65,18 @@
   </a>
   {% endif %}
 
+  {% if site.data.theme.social.telegram %}
+  <a title="{{ site.data.theme.social.telegram }} on Telegram" href="https://telegram.me/{{ site.data.theme.social.telegram }}">
+    <i class="fa fa-paper-plane fa-2x"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.mail %}
+  <a title="{{ site.data.theme.social.telegram }} on Mail" href="mailto:{{ site.data.theme.social.mail }}">
+    <i class="fa fa-envelope fa-2x"></i>
+  </a>
+  {% endif %}
+
   {% if site.data.theme.show_atom_feed %}
   <a title="Atom feed" id="atom" href="/atom.xml">
     <i class="fa fa-rss-square fa-2x"></i>
