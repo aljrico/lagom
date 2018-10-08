@@ -19,6 +19,17 @@ social:
   #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
   #flickr: johndoe
 
+  # Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social_foot:
+# - {icon: 'google-plus', link: 'https://plus.google.com/u/0/+AlfredoHernándezC'}
+- {icon: 'github', link: 'https://www.github.com/aljrico'}
+# - {icon: 'twitter', link: 'https://twitter.com/aldomann'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/aljrico'}
+- {icon: 'paper-plane', link: 'https://telegram.me/aljrico'}
+- {icon: 'envelope', link: 'mailto:aljrico@gmail.com'}
+- {icon: 'rss-square', link: 'feed.xml'}
+# - {icon: 'rss-square', link: 'rss-feed.xml'}
+
 # "Hi, I'm _______"
 name: Alejandro Jiménez Rico
 email: aljrico@gmail.com
