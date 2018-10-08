@@ -3,6 +3,7 @@ layout: post
 title: The value of Bitcoin
 categories:
 - blog
+comments: True
 ---
 
 Year 2008. An unidentifed person, nicknamed as [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), registers the domain [bitcoin.org](https://bitcoin.org) and publishes a paper titled *Bitcoin: A Peer-To-Peer Electronic Cash System*. Claiming that a system for electronic transactions can be build without relying on trust of a centralised party.
@@ -40,11 +41,11 @@ Gold was the standard international measure of wealth until the XX century. In t
 
 Nowadays, some people are wholeheartedly missing the gold standard.
 
-Some branches of economy have argued that the lack of a gold standard, or any kind of objective and non-manipulable metric of wealth, is leading the worldwide economy into a Ponzi scheme trap of ever-growing debt. 
+Some branches of economy have argued that the lack of a gold standard, or any kind of objective and non-manipulable metric of wealth, is leading the worldwide economy into a Ponzi scheme trap of ever-growing debt.
 
 Not-so-academic survivalists and conspiracy theorists loved also the gold standard, because it held for them the promise of an ever-lasting stable currency in a governmental vacuum scenario. And it also prevents an out-of-hand money supply from the government, what could prevent disasters as the recent [hyperinflation of Zimbawe](https://en.wikipedia.org/wiki/Hyperinflation#Most_severe_hyperinflations_in_world_history).
 
-Despite that, some argue that the Gold Standard would not be the all-saver of todays economic dangers. Today's world is not the same as the world from a couple centuries ago; and today's issues can not be so easily addressed with a shiny piece of metal. Gold coins can be very susceptible to scams; have little or no intrinsic value in our current society and it might arrive the day when we will not have enough of that [precious](https://en.wikipedia.org/wiki/Gollum) metal for sustaining all world's economy. 
+Despite that, some argue that the Gold Standard would not be the all-saver of todays economic dangers. Today's world is not the same as the world from a couple centuries ago; and today's issues can not be so easily addressed with a shiny piece of metal. Gold coins can be very susceptible to scams; have little or no intrinsic value in our current society and it might arrive the day when we will not have enough of that [precious](https://en.wikipedia.org/wiki/Gollum) metal for sustaining all world's economy.
 
 And even some survivalists discuss that *it lacks of nutritional value*, and that in a survavilist nightmare gold should be far down on the list of things to stuff in the bag before fleeing into the wilds.
 
@@ -86,7 +87,7 @@ The algorithms and technology designed beneath bitcoin intends to put a cap on h
 
 This puts bitcoin in an awesome situation, doesn't it?
 
-The truth is that printing money is not the only way to destabilize the value of a currency. Volatility does it too. 
+The truth is that printing money is not the only way to destabilize the value of a currency. Volatility does it too.
 
 ![](https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/vol-currencies.png?raw=true)
 
@@ -96,7 +97,7 @@ Some argue that even though bitcoin is not at acceptable levels at this moment, 
 
 Some argue that huge fluctuacions of price is normal for any *young* currency with no banking support and no public understanding surrounding its nature. But it is still to be shown whether this fluctuations might dilude over time as those issues are addressed.
 
-The volatility of bitcoin might be a dealbreaker for some, or a solvable misfortune for others. But it is an issue to consider, because it erodes the confidence of people in the bitcoin. Because price stability carries saftey. And nobody will be interested in saving his money in a currency that does not *feel* safe. 
+The volatility of bitcoin might be a dealbreaker for some, or a solvable misfortune for others. But it is an issue to consider, because it erodes the confidence of people in the bitcoin. Because price stability carries saftey. And nobody will be interested in saving his money in a currency that does not *feel* safe.
 
 This rises some doubts upon wheter bitcoin can become a mean for storing value. And this alone can prevent it from becoming a new currency standard.
 
@@ -106,7 +107,7 @@ How many bitcoins are required to buy a pizza? How many bitcoins would be worth 
 
 While people remain unable to answer those questions without having to convert it in $US or their local currency, bitcoin will not be a unit of account. Period.
 
-The value of bitcoin is seldom talked about in relation to goods and services, it is always in terms of dollars. So dollars are the *Unit of Account* in this sense. Not the bitcoin. 
+The value of bitcoin is seldom talked about in relation to goods and services, it is always in terms of dollars. So dollars are the *Unit of Account* in this sense. Not the bitcoin.
 
 Some argue that the Unit of Account vary from region to region or even from person to person. Euro is definitely a unit of account for people in Euro countries, and Yen is the unit of account for people in Japan. But that does not diminishes this point entirely, because nobody in no region on Earth uses Bitcoin as his *Unit of Account*. They'd always need a local or global currency to know the value of a Bitcoin, not by its own. This may change in some years, but it is not the present situation.
 
@@ -116,7 +117,7 @@ Maybe because people is not using bitcoin so much in their every day lifes, or p
 
 
 
-[//]: # (At this moment, it seems that the people that has bitcoins make two very different uses out of it. It either expects to avoid taxes or fees, or it expects its value to grow higher and make some profit. The latter use is what inflates speculatives bubbles. 
+[//]: # (At this moment, it seems that the people that has bitcoins make two very different uses out of it. It either expects to avoid taxes or fees, or it expects its value to grow higher and make some profit. The latter use is what inflates speculatives bubbles.
 
 It is also true that blockchain decentralized programs have huge potential and people want to use them somehow.
 

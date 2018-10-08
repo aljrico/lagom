@@ -3,6 +3,7 @@ layout: post
 title: "Genetic Algorithms: Solving the N-Queens problem"
 categories:
 - blog
+comments: True
 ---
 
 <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRicSd_V9azOV_tAH5Ts9BkdJb1IQMz8tuNeZUIDjf0RuAjOV7jUw"></center>
@@ -19,13 +20,13 @@ It is important to note that the purpose of this project is not to achieve the b
 
 # On Genetic Algorithms
 
-Genetic Algorithms are a family of algorithms whose purpose is to solve problems more efficiently than usual standard algorithms by using natural science metaphors with parts of the algorithm being strongly inspired by natural evolutionary behaviour; such as the concept of **mutation**, **crossover** and **natural selection**. 
+Genetic Algorithms are a family of algorithms whose purpose is to solve problems more efficiently than usual standard algorithms by using natural science metaphors with parts of the algorithm being strongly inspired by natural evolutionary behaviour; such as the concept of **mutation**, **crossover** and **natural selection**.
 
-When applying genetic algorithms one aims to construct a model that, with some randomness, tries different individuals (possible solutions, differentiated by a list of values that defines its genetic information) to a problem , measure its **fitness** - which would mean to evaluate whether this possible solutions are perfect solutions or just *good* to some extent, and to measure this degree of 'goodness' - and to make the better solutions to *breed* and produce a new set of possible solutions with better fitness, and somehow closer to the perfect solution. 
+When applying genetic algorithms one aims to construct a model that, with some randomness, tries different individuals (possible solutions, differentiated by a list of values that defines its genetic information) to a problem , measure its **fitness** - which would mean to evaluate whether this possible solutions are perfect solutions or just *good* to some extent, and to measure this degree of 'goodness' - and to make the better solutions to *breed* and produce a new set of possible solutions with better fitness, and somehow closer to the perfect solution.
 
 This definition is not set in stone and there is some discussion on the classification of different types of algorithms, concerning whether or not they include the crossover part, the mutation or whichever the investigator seems fit to dismiss or include for an specific project. Can be named *genetic algorithm* an algorithm that has randomly distributed initial population, mutation, natural selection and genetic information being transmited from one generation to the next but it lacks of a crossover? It would be surely included in the label of **Evolutionary Algorithms** even though it has *genes* to carry forward. Anyway, we will not enter in such discussions nor delimit our model to the strict definitions of one category or another. This means that we may use terms as *genetic algorithm*, *mutation* or *crossover* as loosely as is reasonable for the sake of the purpose of this project.
 
-This lack of strict mathematical guidance gives the genetic algorithm some freedom to develop *heuristic* considerations into the build-up of the model. This advantage is also its weakness, for it is a very difficult task to construct a genetic algorithm that converges to the good solutions and not get stuck in solutions that are quite decent but not perfect. 
+This lack of strict mathematical guidance gives the genetic algorithm some freedom to develop *heuristic* considerations into the build-up of the model. This advantage is also its weakness, for it is a very difficult task to construct a genetic algorithm that converges to the good solutions and not get stuck in solutions that are quite decent but not perfect.
 
 The final solution is then an end product of the best elements of previous generations, carried forward from generation to generation with some degree of randomness (mutation).
 
@@ -34,7 +35,7 @@ Along this work, we will travel through the many decisions that have to be taken
 
 # The Puzzle
 
-Once we understand what *Genetic Algorithm* means, we will try to develop a model guided by the principles of this family of algorithms that tries to solve the famous 8-queens problem, and generalised to as many queens as we can. The objective of this problem is to distribute *N* queens across a *NxN* chessboard in such way that no queen is able to kill any other queen in the next move. 
+Once we understand what *Genetic Algorithm* means, we will try to develop a model guided by the principles of this family of algorithms that tries to solve the famous 8-queens problem, and generalised to as many queens as we can. The objective of this problem is to distribute *N* queens across a *NxN* chessboard in such way that no queen is able to kill any other queen in the next move.
 
 Knowing this, we have to decide how we do define the position of the queens in a straightforward way. The simplest approach is to use a family of permutations. This is a sequence of *8* unique numbers from *1* to *8* (or *N*, for the N-queen problem) from which we can construct "brothers" just permutating the position of the elements of the sequence. For instance: *(1,2,3,4,5,6,7,8)*, *(5,6,7,8,1,2,3,4)* or *(8,7,6,5,4,3,2,1)*. The elements of the sequence has the meaning of the position of each queen. In this way, every element of the array (sequence) represents a *row*, and from every one of which there is a queen; so the number of every element represents in which *column* we do put the queen. The solution showed in the image below would be represented as *(2,5,7,4,1,8,6,3)*
 
@@ -60,15 +61,15 @@ There are plenty of other techniques that try different approaches in order to m
 
 Why is diversity so important? Two parents with a great -- but not perfect -- fitness can breed excellent -- but not perfect -- children, whose genetic information that is being carried forward from generations does not and will not pertain to a perfect solution. Thus, lack of diversity would lead the algorithm te get stuck into quite good solutions, but never perfect. Since our crossover has precisely the disadvantage of disencouraging diversity, we'll try to avoid it using another technique. We'll add mutation.
 
-**Clarification:** At this point would be relevant to point out that we are making use of loose terminology. So, in order to not piss some people off, I'd like to clarify the usage of some terms. First, the definition of the crossover is actually quite controversial and it triggers some utter discussions. The usage we are doing of the term might not be fitting the formal definition of a crossover, you should think about it as some kind of *heuristic function* that involves the resemblance of both parents and some degree of randomness, but not exactly a crossover, because it does not interchange genetic material. 
-Consequently, a genetic algorithm without a proper crossover maybe should actually not be called *genetic* at all, and use another more generic label as *Evolutionary Algorithm*. We'll  keep talking about *crossover* and *genetic algorithm* from this point onwards anyway. 
+**Clarification:** At this point would be relevant to point out that we are making use of loose terminology. So, in order to not piss some people off, I'd like to clarify the usage of some terms. First, the definition of the crossover is actually quite controversial and it triggers some utter discussions. The usage we are doing of the term might not be fitting the formal definition of a crossover, you should think about it as some kind of *heuristic function* that involves the resemblance of both parents and some degree of randomness, but not exactly a crossover, because it does not interchange genetic material.
+Consequently, a genetic algorithm without a proper crossover maybe should actually not be called *genetic* at all, and use another more generic label as *Evolutionary Algorithm*. We'll  keep talking about *crossover* and *genetic algorithm* from this point onwards anyway.
 
 
 ## Mutation
 
 So we don't want to get stuck in local minima. In order to avoid that, some degree of randomness is needed to escape from those pretty decent individuals. And for this purpose it is useful the concept of random mutations. A typical and very simple mutation consists in permutate two elements of the genoma of an individual. When and where to apply the mutation is chosen randomly and is one of the crucial parameters to balance between a more *exploratory* or a more *elitist* model.
 
-For our situation, we have chosen a weird crossover method with a great risk of falling into local minima; and for this reason we have chosen an also a weird mutation. The mutation that we will apply in our models is considerably more aggressive than the usual, for just one permutation may not let us escape from a whole family of inbreeded quite decent individuals with many elements in common but bearing no hope for a future perfect grandson. 
+For our situation, we have chosen a weird crossover method with a great risk of falling into local minima; and for this reason we have chosen an also a weird mutation. The mutation that we will apply in our models is considerably more aggressive than the usual, for just one permutation may not let us escape from a whole family of inbreeded quite decent individuals with many elements in common but bearing no hope for a future perfect grandson.
 
 The mutation used in our models is, then, a complete rearrangement of the genoma of an individual when it is created. That means that every time a couple procreates and produces a child, this individual has a chance to be generated randomly, with no regard for parents resemblance whatsoever.
 
@@ -87,10 +88,10 @@ The number of solutions for the 8-queens version is $92$. This number increases 
 
 <center><img src="https://raw.githubusercontent.com/aljrico/optimization-algorithms/master/material/solutions-space.jpg" width="65%"></center>
 
---- 
+---
 
-The most common and reasonable way to address this is to define a *fitness* function. The fitness is telling us, in some sense, how *good* this individual is. 
-Provided that our goal is to obtain an individual with *0* dead queens, we could set our fitness function as the inverse of the number of dead queens. Or 
+The most common and reasonable way to address this is to define a *fitness* function. The fitness is telling us, in some sense, how *good* this individual is.
+Provided that our goal is to obtain an individual with *0* dead queens, we could set our fitness function as the inverse of the number of dead queens. Or
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=F(x)&space;=&space;\frac{1}{1&space;&plus;&space;x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F(x)&space;=&space;\frac{1}{1&space;&plus;&space;x}" title="F(x) = \frac{1}{1 + x}" /></a>
 
@@ -405,19 +406,19 @@ repeat{
 
 This last method is a bit funny. *The Great Tournament* is a strange version of a standard methodology that we have not yet discussed, that is the *tournament selection*.
 
-A tournament essentially consists in selecting randomly a bunch of individuals and make them *fight*; and the result of this battle will decide which of them survives the purge. The most obvious way to decide the winner is to compare its fitness value; the victorious figther would be he who was the greater fitness. Another approach, more exploratory, would be simply to set a probability of victory biased towards the more fittest individual. 
+A tournament essentially consists in selecting randomly a bunch of individuals and make them *fight*; and the result of this battle will decide which of them survives the purge. The most obvious way to decide the winner is to compare its fitness value; the victorious figther would be he who was the greater fitness. Another approach, more exploratory, would be simply to set a probability of victory biased towards the more fittest individual.
 
-As a clarification; imagine selecting 10 random individuals out of the entire population and making them to fight, one of them comes out as the mighty winner and goes into a dating pool to mate; then select another set of 10 random individuals and make them fight, select a winner, put him into the dating pool, and iterate. Once we have a dating pool plenty of proud champions, we make them breed and generate an entire new generation. 
+As a clarification; imagine selecting 10 random individuals out of the entire population and making them to fight, one of them comes out as the mighty winner and goes into a dating pool to mate; then select another set of 10 random individuals and make them fight, select a winner, put him into the dating pool, and iterate. Once we have a dating pool plenty of proud champions, we make them breed and generate an entire new generation.
 
 Some simple tweaks that can be performed on the tournament method are changing the battle size; we can make 3, 10 or 100 individuals fight each other. There may be more than one winner, too. And what about the losers? Can they have the chance to get involved in another fight again and try to win this time, or we just kill them?
 
 These changes have a great impact on the performance of the final algorithm; for example, a larger tournament size implies a higher selection pressure, which turns in a more elitist model.
 
-For our study, we have selected battle size of just $2$ oponents. In this fight, the individual of higher fitness has a chance of winning of an $85\%$, whereas the weaker individual has a $15\%$ (obviously), with no regard on how big or small is the difference between their fitness. 
+For our study, we have selected battle size of just $2$ oponents. In this fight, the individual of higher fitness has a chance of winning of an $85\%$, whereas the weaker individual has a $15\%$ (obviously), with no regard on how big or small is the difference between their fitness.
 
 To this simple method, I have decided to add an interesting tweak that we'll give some kind of a second chance with the loser. If the stronger individual wins the battle, he is the survivor and he is sent to the dating pool to populate the new generation. But if the weaker individual is the one who wins, he does not survive the purge; he just mates with his opponent and gets a child, and this child is the one sent to the dating pool in order to populate the new generation, with his father/mother.
 
-This weird method has both exploratory characteristics - because of its small tournament size - and exploitatory ones - because of the impossibility for the weaker individual to carry forward its genetic information without mating his rival. 
+This weird method has both exploratory characteristics - because of its small tournament size - and exploitatory ones - because of the impossibility for the weaker individual to carry forward its genetic information without mating his rival.
 
 The point again is to create some balance between exploratory and exploitatory characteristics that leads to a reasonable equilibrated model.
 
@@ -600,7 +601,7 @@ As stated in the abstract, we are using an inefficient programming language. So 
 
 For this reason, the performance metric that we will be measuring all the time will be **individuals**. Along all the algorithms we are generating tons of individuals, and every individual is a trial to get the very solution of the problem. Thus, the fewer individuals a program has to generate in order to get the proper solution the more efficient it is. How much time it takes to generate every individual is a problem essentially regarding the programming language and the diligence in which the program is coded; effort that lands outside the scope of this project.
 
-Another perspective to analyse the performance of a Genetic Algorithm is to measure the *time evolution* of the average fitness of its population from generation to generation, or the time evolution of the fitness of the best invidiual of each generation. Ideally, a proper algorithm tens to consistently improve those metrics over generations. 
+Another perspective to analyse the performance of a Genetic Algorithm is to measure the *time evolution* of the average fitness of its population from generation to generation, or the time evolution of the fitness of the best invidiual of each generation. Ideally, a proper algorithm tens to consistently improve those metrics over generations.
 
 
 ## Performance
@@ -612,7 +613,7 @@ Once we have all the data generated, we just need to loaded and clean it a littl
 
 
 
-We'll start theh analysis  looking at the data without making distinction between the models. 
+We'll start theh analysis  looking at the data without making distinction between the models.
 
 
 ```r
@@ -631,11 +632,11 @@ df %>%
 If we look at the figure above, we can appreciate the increase in computational effort when we rise the number of queens of the problem to solve. One interesting thing about these kind of plots is that we can appreciate the distribution of the results, and notice that not only increases the computation needed to solve a problem, but the dispersion of the results. This means that it is harder to predict the time needed to get a solution.
 
 
-If we want to dig a little deeper, we can split these results from the different models used each time we run the program.  
+If we want to dig a little deeper, we can split these results from the different models used each time we run the program.
 
 
 ```r
-df %>% 
+df %>%
 	filter(model != "random") %>%
 	ggplot(aes(x=as.factor(nqueens), y = log(ind), colour = as.factor(model))) +
 	geom_jitter() +
@@ -676,7 +677,7 @@ Nevertheless, it is also relevant to point out how unconnected the probability o
 
 Despite all this fancy algorithms, we also know that is always possible to solve the N-Queens problem using the simplest and savagest method available, just trying combinations at random until one of them happens to be perfect and outputs $F = 1$. How probable is that? It depends on the dimensions of each problem. If we look back at the table of the solucions space we can see the number of possible unique individuals, with the number of unique perfect solutions of the problem. This way we can find out the an expected number of individuals needed to get a perfect solution.
 
-More practically, we could just plainly generate random permutations of the individuals until one of them happens to be the perfect solution. Then record how many trials have been necessaries, and iterate until we have enough data to compare the results. 
+More practically, we could just plainly generate random permutations of the individuals until one of them happens to be the perfect solution. Then record how many trials have been necessaries, and iterate until we have enough data to compare the results.
 
 
 ```r
@@ -717,7 +718,7 @@ These results might reinforce the idea that complex optimisation schemes such as
 
 ## Time Evolution of Fitness
 
-At first sight, the utility of this measurement might not appear so obvious, but it may be remarkable to know whether a population of solutions tends to improve consistently from generation to generation or it justs bounds randomly until some lucky guy hits the jackpot and it just happens to be the perfect solution. Ideally, a proper model should provide a steady ascending curve describing the average fitness of the population across generations. 
+At first sight, the utility of this measurement might not appear so obvious, but it may be remarkable to know whether a population of solutions tends to improve consistently from generation to generation or it justs bounds randomly until some lucky guy hits the jackpot and it just happens to be the perfect solution. Ideally, a proper model should provide a steady ascending curve describing the average fitness of the population across generations.
 
 <center><img src="https://raw.githubusercontent.com/aljrico/optimization-algorithms/master/genetic-algorithms/time-half.png"></center>
 
@@ -732,7 +733,7 @@ The parameters involved -- such as *mutation probability* -- have been of great 
 
 This thought opens up another point of the results that ought to be considered. The main parameter studied in this project has been the *mutation probability*, and they have not shown quite clearly whether this parameter has a relevant effect on the performance of the models.  The common characteristic of each of the models was their "crossover". Moreover, the mutation probability, in the way that has been created, can be thought as the probability that the crossover does not actually occur when producing a new child; and it is just created randomly. This leads to the conclusion that it is not plainly clear whether our "crossover" method does have a relevant effect in the developement of future generations or not. The only exception for that has been showed when using very little mutation probability on the `allbut2` model; in that case the program got stuck in local minima partly as a cause of this "crossover". Nevertheless, occasional solutions have been found using the `allbut2` with a moderate mutation probability ($0.25 < p < 0.75$) that largely outperformed the rest of the models. In some sense, we can think that this model, using this "crossover" is so elitistic that converges rapidly to a solution, regardless of whether it is perfect or not; so it is not strange that sometimes finds a perfect solution faster than the rest.
 
-We do not have clear enough results to conclude whether or not these Genetic Algorithm models are more useful finding **N-Queens** solutions than a random trial and error, for higher number of queens. And it is clear than the trial and error performs far better than our models, when applied on lower number of queens. 
+We do not have clear enough results to conclude whether or not these Genetic Algorithm models are more useful finding **N-Queens** solutions than a random trial and error, for higher number of queens. And it is clear than the trial and error performs far better than our models, when applied on lower number of queens.
 
 Despite this discouragment, further investigation can be made applying these models on even higher number of queens, in different problems or using different "crossovers". Future research should also dig deeper on the importance of different parameters such as the **population size**, for this variable makes a great difference in the performance of this and other models.
 

@@ -3,13 +3,14 @@ layout: post
 title: A short story of Rubidium
 categories:
 - blog
+comments: True
 ---
 
-Today I want to introduce you to the wonderfully unstable element of 37 protons: **Rubidium**. This element is extremely rare to find in the universe and in our planet. Its creation is prohibitevly difficult. They can only be forged in the fires of *huge* explosions. And I mean *huge* as a Supernova explosion or even the *Big Bang* explosion kind of huge. 
+Today I want to introduce you to the wonderfully unstable element of 37 protons: **Rubidium**. This element is extremely rare to find in the universe and in our planet. Its creation is prohibitevly difficult. They can only be forged in the fires of *huge* explosions. And I mean *huge* as a Supernova explosion or even the *Big Bang* explosion kind of huge.
 
 First of all, what do physicists mean by *unstable*? Imagine the situation of a different kind of equilibrium. Imagine a coin on a table, just chilling flat. You know that, if undisturbed, the coin will remain in this position forever. *This* is what real stability means. If you pull up the coin a little bit from one side, you would be creating unstability, for you are positive that the coin will eventually fall again to its stable position if you let it go.
 
-The Rubidium we find in our planet may be unstable, but it is *so* close to stability that it would just take one step to transform it into a much more stable element: Strontium. The only thing it needs to do is to change one proton by one neutron, and all that it takes to do that is to shoot away a positron. One shot and the atom will gain eternal stability. 
+The Rubidium we find in our planet may be unstable, but it is *so* close to stability that it would just take one step to transform it into a much more stable element: Strontium. The only thing it needs to do is to change one proton by one neutron, and all that it takes to do that is to shoot away a positron. One shot and the atom will gain eternal stability.
 
 That shot will eventually happen. In the same way the coin would eventually fall flat on the table. The only question is *when*. The shooting of a positron is a random process. We are positive that it will eventually happen, but we can not conclude how much time it will take. The average time that has been computed for a Rubidium to decay into Strontium is around 70 billion years. You may not realize that at first, but this is really a lot of time. 70 billion years is much more than the age of the universe. That means that if you were looking at a Rubidium atom from its creation in the Big Bang until know, you wouldn't expect it to pop out a positron yet. In reality, though we see this process occurring in some rocks of our planet, and we even use it to measure the age of some ancient minerals.
 

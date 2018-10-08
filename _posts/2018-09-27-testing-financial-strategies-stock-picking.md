@@ -3,6 +3,7 @@ layout: post
 title: "Testing Financial Strategies with R: Stock Picking"
 categories:
 - blog
+comments: True
 ---
 
 One of the most common financial advices that you can hear in every christmas meal is that you should be saving a fixed amount of money each month. Not only that, but you should avoid pre-cooked schemes offered by your bank and simply invest your savings in the stock market. Investing in the U.S. market or even the global stock market has been a wise decision if you look at the long term (more than 10 years), even if you invested in peak of any pre-crisis crest.
@@ -244,7 +245,7 @@ for(t in tickers){
 		path <- paste0("data/",t)
 		write_feather(whole_data,path)
 	}, error=function(e){})
-	
+
 	pb$tick()
 }
 ```
@@ -256,10 +257,10 @@ The broad investment strategy that I have defined for this test is the following
 ```r
 invest <- function(method, data, date, amount_to_invest = 1, stocks_owned, specificity = 1){
 	d <- date
-	stocks_available <- data %>% 
-											filter(date == d) %>% 
-											.$firm %>% 
-											unique() %>% 
+	stocks_available <- data %>%
+											filter(date == d) %>%
+											.$firm %>%
+											unique() %>%
 											as.character()
 ```
 
@@ -273,24 +274,24 @@ This is going to serve as a benchmark. It is a quite dumb one, but any strategy 
 
 ```r
 	if(method == "random"){
-		selected_stock <- stocks_available %>% 
+		selected_stock <- stocks_available %>%
 		sample(specificity, replace = TRUE)
 	}
 ```
 
 ## Price Earnings Ratio (PER)
 
-Both praised and demonized, the PER is one of the most famous financial ratios that is studied in the stock market. This metric tells you how many years you should wait to recover your investment in case you would be getting paid the proportional revenue of the company. 
+Both praised and demonized, the PER is one of the most famous financial ratios that is studied in the stock market. This metric tells you how many years you should wait to recover your investment in case you would be getting paid the proportional revenue of the company.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=PER&space;=&space;\frac{Price*CommonStock}{TotalRevenue}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PER&space;=&space;\frac{Price*CommonStock}{TotalRevenue}" title="PER = \frac{Price*CommonStock}{TotalRevenue}" /></a>
 
 It sounds kind of logic that the price of a stock should correlate with its capacitity of generating revenue. What it is a company if not a machine that inputs some money and outputs even more money? Therefore, it does not seem crazy to evaluate the *fair value* of a company based on its revenue. However, there is a lot of controversy on whether this ratio is useful or not for fundamental analysis. Amongst other things, some people claim that the revenue of a company is one of the metrics that can be more easily manipulated and hence we shouldn't rely any decision based on them.
 
-Considering all of that, I though it was worth testing it in our little experiment. 
+Considering all of that, I though it was worth testing it in our little experiment.
 
 How will we do test it? Well, it is kind of common sense in investment environments to label companies as *expensive* if they have a high PER and as *cheap* if they have a low one. Following that logic, you should buy companies with lower PER, because they are cheaper. Therefore, each month in our experiment we will sort the stock universe by its present PER in ascending order and we will invest our monthly money into the top of the list. This way we will always invest in the cheapest companies available. No more considerations.
 
-I know this is trategy is utterly simplistic and that we can not base all our fundamental-analysis-oriented stock picking in one single metric. But if this ratio holds some slight truth in its statements, it should be at least better than randomly choosing stocks. Otherwise this ratio is not giving us any useful information *whatsoever*. 
+I know this is trategy is utterly simplistic and that we can not base all our fundamental-analysis-oriented stock picking in one single metric. But if this ratio holds some slight truth in its statements, it should be at least better than randomly choosing stocks. Otherwise this ratio is not giving us any useful information *whatsoever*.
 
 ```r
 	if(method == "per"){
@@ -354,7 +355,7 @@ and simply say that the larger this number is, the better. Therefore, we do the 
 
 ## Combined Dividends and EBITDA
 
-Since we've got explained some quite convincing ideas, I thought that would be interesting to put them together in one combined strategy that I call *Dividends and Revenues*, for lack of a better name. 
+Since we've got explained some quite convincing ideas, I thought that would be interesting to put them together in one combined strategy that I call *Dividends and Revenues*, for lack of a better name.
 
 The formula would be the following:
 
@@ -379,7 +380,7 @@ Note that since we'll decide based on a ranking, this combined metric does not d
 
 # Investment Simulation & Results
 
-Remember that variable called `specificity`? From our strategy-guided sorted list of stickers that we had, we chose the top of the list. How many of that top is what `specificity` states. It is kind of risky picking just one company out of 1500, and it is a parameter that can be interesting to study on its own. 
+Remember that variable called `specificity`? From our strategy-guided sorted list of stickers that we had, we chose the top of the list. How many of that top is what `specificity` states. It is kind of risky picking just one company out of 1500, and it is a parameter that can be interesting to study on its own.
 
 I warn you that this section is going to get a bit messy. I'll just paste huge bunches of code that are not so easy to read because I've prioritized memory efficiency and speed. So be patient or skip it and go directly to the explanation below each one
 
@@ -469,9 +470,9 @@ strategies_list <- c("random", "per", "evebitda", "dividends_ev", "div_and_rev")
 	stocks_universe <- getTickers("all") %>% sample(n_stocks) %>% intersect(list.files("data/"))
 	files <- paste0("data/",stocks_universe)
 	dt <- rbindlist(lapply(files, read_feather)) %>% filter(price >= 0.1) %>% data.table()
-	investment <- simulate_multiple_strategies_fasto(data = dt, 
-																									 amount_to_invest = 1, 
-																									 strategies = strategies_list, 
+	investment <- simulate_multiple_strategies_fasto(data = dt,
+																									 amount_to_invest = 1,
+																									 strategies = strategies_list,
 																									 specificity = specificity)
 
 ```
@@ -492,7 +493,7 @@ investment$result %>%
 
 I know, I know. We are just taking a random subset of 100 companies instead of those juicy 1500. And the results obtained from here could be utterly different if we repeat the experiment for a different 100 companies.
 
-In order to address that, we can simply iterate that process with new randomly selected universe of stocks every time and compute the difference in the yearly return of each simulation. 
+In order to address that, we can simply iterate that process with new randomly selected universe of stocks every time and compute the difference in the yearly return of each simulation.
 
 ```r
 
@@ -581,7 +582,7 @@ diff_result %>%
 
 This plot shows the relative difference in the final yearly return between each strategy and the random. Obviously the random shows 0 difference with itself.
 
-It is common to argue that simply higher returns does not equal to a better strategy, and that we should take into account the relative risk with respect with the benchmark. Since we are using the random selection as benchmark, we can use it like that and compute the Jensen's Alpha for each strategy on every simulation (look the code above and note that this computation is hidden inside). 
+It is common to argue that simply higher returns does not equal to a better strategy, and that we should take into account the relative risk with respect with the benchmark. Since we are using the random selection as benchmark, we can use it like that and compute the Jensen's Alpha for each strategy on every simulation (look the code above and note that this computation is hidden inside).
 
 ```r
 alpha_result %>%
@@ -607,9 +608,9 @@ I don't want to start arguing about whether we should look at the relative diffe
 There are some biases that we should be aware of. Some of those could trigger further exploration of what I've done so far, trying to address them.
 
  - The most important one: Choosing the `specificity` parameter. The results can vary greatly if we change this parameter. Early exploration has shown me that if we set the specifity as 1, every strategy does not differ from the random, and we couldn't say that they add value. I most certainly will expand the article in the future exploring this issue.
- 
- - Universe of available stocks. We have chosen the lists of the standard and poors available *today*. This adds survivor bias, because we are only considering the companies that are in those lists nowadays, not back in 2014 or at every moment of the simulation. This is a problem because when we simulate being in 2014 with the information of 2014 we are not seeing the stocks that were in the lists of the SP back in 2014, but those that are present in the lists of 2018. We are using information of the future, and that is dangerous. I wouldn't say is a big deal, because in 4 years these lists don't change so much, but still. 
- 
+
+ - Universe of available stocks. We have chosen the lists of the standard and poors available *today*. This adds survivor bias, because we are only considering the companies that are in those lists nowadays, not back in 2014 or at every moment of the simulation. This is a problem because when we simulate being in 2014 with the information of 2014 we are not seeing the stocks that were in the lists of the SP back in 2014, but those that are present in the lists of 2018. We are using information of the future, and that is dangerous. I wouldn't say is a big deal, because in 4 years these lists don't change so much, but still.
+
  - Time. 4 years is simply not enough to extract reliable conclusions. Even though our datasets look huge, 4 years in financial history is just a small glimpse. This time range does not include periods of crisis, bursting of bubbles or any other major financial distress. Moreover, long-term saving strategies are thought to be applied during periods of more than 10 years; so even though we are claiming to simulate a real humble investor, the results we are providing can not applied to that situation. The reason why we only have 4 years is because I haven't been able to retrieve older financial statements. I'll work on that.
 
 
