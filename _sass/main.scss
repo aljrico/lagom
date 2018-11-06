@@ -26,27 +26,27 @@ body {
 /*   http://css-tricks.com/viewport-sized-typography/
 /*****************************************************************************/
 body {
-  font-size: 0.9vw;
+  font-size: 1vw;
 }
 @media screen and (max-width: 10000px) {
   body {
-    font-size:1rem;
+    font-size:1.1rem;
   }
 }
 
 pre {
-  font-size: 0.9vw;
+  font-size: 1vw;
 }
 @media screen and (max-width: 10000px) {
   pre {
-    font-size:0.9rem;
+    font-size:1rem;
   }
 }
 /* end Viewport Sized Topography code */
 
 @media (min-width: 38em) {
   html {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
