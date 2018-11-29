@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "harrypotter: My first R package"
+title: "My First R Package: harrypotter"
 categories:
 - blog
 comments: True
@@ -10,7 +10,7 @@ comments: True
 [![rstudio mirror per-month downloads](http://cranlogs.r-pkg.org/badges/harrypotter)](https://github.com/metacran/cranlogs.app)
 [![rstudio mirror total downloads](http://cranlogs.r-pkg.org/badges/grand-total/harrypotter?color=yellowgreen)](https://github.com/metacran/cranlogs.app)
 
-<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts_shield.png" width="300"></center>
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts_shield.png" width="350"></center>
 
 
 I want to present you my first **R** package, [already published](https://cran.r-project.org/package=harrypotter) in CRAN. It has been a very exciting and challenging process.  
