@@ -1,11 +1,9 @@
 ---
 layout: post
-title: ""
+title: "harrypotter: My first R package"
 categories:
 - blog
-output:
-  html_document: 
-    keep_md: true
+comments: True
 ---
 
 [![cran version](http://www.r-pkg.org/badges/version/harrypotter)](https://cran.r-project.org/package=harrypotter)
