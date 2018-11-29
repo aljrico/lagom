@@ -627,7 +627,7 @@ df %>%
 	theme(legend.position="none")
 ```
 
-![](genetic-algorithms_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](rmarkdown/genetic-algorithms_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 If we look at the figure above, we can appreciate the increase in computational effort when we rise the number of queens of the problem to solve. One interesting thing about these kind of plots is that we can appreciate the distribution of the results, and notice that not only increases the computation needed to solve a problem, but the dispersion of the results. This means that it is harder to predict the time needed to get a solution.
 
@@ -645,7 +645,7 @@ df %>%
 	theme_bw()
 ```
 
-![](genetic-algorithms_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](rmarkdown/genetic-algorithms_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 In this figure, we can notice how different they behave. It can be seen that the `tourn` (which is the *Great Tournament* model) behave much more chaotically than the other two. Moreover, it seems that usually the `half` model and the `allbut2` (*Recursive Adam \& Eve*) tend to be quicker finding the optimal solution. This happens for a number of queens lower than $10$, once we have reached that level of difficulty, the results start to be messy and somehow less predictable.
 
@@ -666,7 +666,7 @@ df %>%
 	theme_bw()
 ```
 
-![](genetic-algorithms_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](rmarkdown/genetic-algorithms_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
 If we now take a look at the figure above, we can notice the major differences between the models, and how differently they make use of the probability of mutation. The biggest influence can be seen in the `allbut2` model. In fact, smaller probabilities of mutation such as $0.01$ or $0.05$ have been to be removed from the analysis because this model took so much time to compute even the smaller problems that the collection of relevant data was not feasible. This issue remarks the great importance of mutation in the construction of so very exploitatory models. Actually, it might be noticed that it behaves better when this probability is increased; achieving some kind of sweetspot around $p=0.5$.
 
@@ -691,7 +691,7 @@ df %>% # Used
 	theme(legend.position = "none")
 ```
 
-![](genetic-algorithms_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](rmarkdown/genetic-algorithms_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 Note that this plot is in logarithmic scale. See how rapidly the computational requirements increase over the difficulty of the problem.
 
@@ -711,7 +711,7 @@ df %>%
 	theme_bw()
 ```
 
-![](genetic-algorithms_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](rmarkdown/genetic-algorithms_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
 These results might reinforce the idea that complex optimisation schemes such as *Genetic Algorithms* might be useful just for extremely complex problems. In our case, for a number of queens greater than $10$.
 
