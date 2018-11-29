@@ -176,5 +176,5 @@ filled.contour(cos(r^2)*exp(-r/(2*pi)),
                asp=1)
 ```
 
-<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/unnamed-chunk-10-1.png" ></center>
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/unnamed-chunk-11-1.png" ></center>
 
