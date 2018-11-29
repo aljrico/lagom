@@ -10,8 +10,7 @@ comments: True
 [![rstudio mirror per-month downloads](http://cranlogs.r-pkg.org/badges/harrypotter)](https://github.com/metacran/cranlogs.app)
 [![rstudio mirror total downloads](http://cranlogs.r-pkg.org/badges/grand-total/harrypotter?color=yellowgreen)](https://github.com/metacran/cranlogs.app)
 
-
-![](https://github.com/aljrico/aljrico.github.io/blog/master/_posts/images/9_34.png?raw=true)
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts_shield.png"></center>
 
 
 I want to present you my first **R** package, [already published](https://cran.r-project.org/package=harrypotter) in CRAN. It has been very exciting and challenging.  
@@ -27,9 +26,9 @@ At its first version, it simply contains the palettes of the [Hogwarts](https://
 
 The colour palette should be beautiful, useful for plotting data and shoulr relate to desired style; in this case, should relate to the Harry Potter world. Some of the colours might change in future versions, in order to find this balance between suitability for plotting and relatable to the Harry Potter universe.
 
-![](https://github.com/aljrico/aljrico.github.io/blog/master/_posts/images/hogwarts-houses.png?raw=true)
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts-houses.png"></center>
 
-![](https://github.com/aljrico/aljrico.github.io/blog/master/_posts/images/show_scales2-1.png?raw=true)
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/show_scales2-1.png"></center>
 
 
 
