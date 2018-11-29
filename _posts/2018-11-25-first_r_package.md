@@ -31,6 +31,9 @@ The colour palette should be beautiful, useful for plotting data and shoulr rela
 
 ![](https://github.com/aljrico/aljrico.github.io/blog/master/_posts/images/hogwarts-houses.png?raw=true)
 
+![](https://github.com/aljrico/aljrico.github.io/blog/master/_posts/images/show_scales2-1.png?raw=true)
+
+
 
 
 Installation
@@ -38,13 +41,15 @@ Installation
 
 Just copy and execute this bunch of code and you'll have the last version of the package installed:
 
-```{r, eval = FALSE}
+
+```r
 install.packages("harrypotter")
 ```
 
 And you can now use it:
 
-```{r}
+
+```r
 library(harrypotter)
 ```
 
@@ -55,21 +60,28 @@ The default colour scale of the package is the one of the house *Hufflepuff*. If
 
 Let's say that you want a palette made from the house **Gryffindor**.
 
-```{r}
+
+```r
 pal <- hp(25, house = "Gryffindor")
 image(volcano, col = pal)
 ```
 
+![](first_r_package_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+
 Or a bit more like me, you prefer to be a **Ravenclaw**.
 
-```{r}
+
+```r
 pal <- hp(25, house = "Ravenclaw")
 image(volcano, col = pal)
 ```
 
+![](first_r_package_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+
 Or put them all together
 
-```{r}
+
+```r
 pal_gryff <- hp(25, house = "Gryffindor")
 pal_rav   <- hp(25, house = "Ravenclaw")
 pal_huff  <- hp(25, house = "Hufflepuff")
@@ -82,14 +94,18 @@ image(volcano, col = pal_huff)
 image(volcano, col = pal_sly)
 ```
 
+![](first_r_package_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+
 ### ggplot2
 
 Of course, this package has specific functions to behave seamlessly with the best data visiualisation library available. 
 The package contains colour scale functions for **ggplot2** plots: `scale_color_hp()` and `scale_fill_hp()`.
 
+
 Here is a made up example using the colours from the house of **Hufflepuff**,
 
-```{r}
+
+```r
 library(ggplot2)
 ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
   geom_hex() + 
@@ -98,9 +114,12 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
 	theme_bw()
 ```
 
+![](first_r_package_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+
 and **Ravenclaw**
 
-```{r}
+
+```r
 library(ggplot2)
 ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
   geom_hex() + 
@@ -109,7 +128,54 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
 	theme_bw()
 ```
 
+![](first_r_package_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+
 Using the same function we can also plot these cloropleth maps of U.S. unemployment:
 
 ![](https://github.com/aljrico/aljrico.github.io/blog/master/_posts/images/ggplot2-1.png?raw=true)
 ![](https://github.com/aljrico/aljrico.github.io/blog/master/_posts/images/ggplot2-2.png?raw=true)
+
+And more made-up heatmaps
+
+![](first_r_package_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+
+
+But what if you want discrete scales? These functions also can be used for discrete scales with the argument `discrete = TRUE`. This argument, when TRUE, sets a finite number of sufficiently spaced colours within the selected palette to plot your data.
+
+
+```r
+library("ggplot2")
+ggplot(mtcars, aes(factor(cyl), fill=factor(vs))) +  
+	geom_bar() +
+  scale_fill_hp(discrete = TRUE, house = "Ravenclaw")
+```
+
+![](first_r_package_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+
+
+```r
+ggplot(mpg, aes(class)) +
+	geom_bar(aes(fill = drv), position = position_stack(reverse = TRUE)) +
+ coord_flip() +
+	scale_fill_hp(discrete = TRUE, house = "Gryffindor") +
+ theme(legend.position = "top") +
+	ylab("") +
+	xlab("Class")
+```
+
+![](first_r_package_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+
+
+
+
+```r
+x <- y <- seq(-8*pi, 8*pi, len = 40)
+r <- sqrt(outer(x^2, y^2, "+"))
+filled.contour(cos(r^2)*exp(-r/(2*pi)), 
+               axes=FALSE,
+               color.palette=hp,
+               asp=1)
+```
+
+![](first_r_package_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+
