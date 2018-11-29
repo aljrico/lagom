@@ -14,9 +14,9 @@ comments: True
 [![rstudio mirror total downloads](http://cranlogs.r-pkg.org/badges/grand-total/harrypotter?color=yellowgreen)](https://github.com/metacran/cranlogs.app)
 
 
-I want to present you my first **R** package, [already published](https://cran.r-project.org/package=harrypotter) in CRAN. It has been a very exciting and challenging process.  
+I want to present you my first **R** package, [already published](https://cran.r-project.org/package=harrypotter) in CRAN. 
 
-Now I appreciate that the way packages are organized, and the existence and structure of CRAN is one of the highlights of `R`, and one of the main reasons of its supremacy over other languages.
+I have to say that has been a challenging but very exciting experience. I've learned a lot of stuff and now I can appreciate that the way packages are structured, and the existence of the CRAN is one of the highlights of `R`, and one of its strongest advantages over other languages.
 
 This package provides the first round of palettes derived from the *Harry Potter* film series.
 
@@ -24,7 +24,8 @@ At its first version, it simply contains the palettes of the [Hogwarts](https://
 
 The colour palette should be beautiful, useful for plotting data and shoulr relate to desired style; in this case, should relate to the Harry Potter world. Some of the colours might change in future versions, in order to find this balance between suitability for plotting and relatable to the Harry Potter universe.
 
-> “Most of us need to listen to the music to understand how beautiful it is. But often that’s how we present statistics: we just show the notes, we don’t play the music.” 
+
+> Most of us need to _listen_ to the music to understand how beautiful it is. But often that’s how statistics are presented: we show the notes instead of playing the music.
 
 <center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts-houses.png"></center>
 
