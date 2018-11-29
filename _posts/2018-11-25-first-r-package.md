@@ -10,10 +10,10 @@ comments: True
 [![rstudio mirror per-month downloads](http://cranlogs.r-pkg.org/badges/harrypotter)](https://github.com/metacran/cranlogs.app)
 [![rstudio mirror total downloads](http://cranlogs.r-pkg.org/badges/grand-total/harrypotter?color=yellowgreen)](https://github.com/metacran/cranlogs.app)
 
-<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts_shield.png"></center>
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts_shield.png" width="300"></center>
 
 
-I want to present you my first **R** package, [already published](https://cran.r-project.org/package=harrypotter) in CRAN. It has been very exciting and challenging.  
+I want to present you my first **R** package, [already published](https://cran.r-project.org/package=harrypotter) in CRAN. It has been a very exciting and challenging process.  
 
 Now I appreciate that the way packages are organized, and the existence and structure of CRAN is one of the highlights of `R`, and one of the main reasons of its supremacy over other languages.
 
@@ -28,7 +28,7 @@ The colour palette should be beautiful, useful for plotting data and shoulr rela
 
 <center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/hogwarts-houses.png"></center>
 
-<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/show_scales2-1.png"></center>
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/show_scales2-1.png" ></center>
 
 
 
