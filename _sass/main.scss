@@ -27,11 +27,11 @@ body {
 /*   http://css-tricks.com/viewport-sized-typography/
 /*****************************************************************************/
 body {
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 @media screen and (max-width: 10000px) {
   body {
-    font-size:1.15rem;
+    font-size:1.1rem;
   }
 }
 
@@ -47,7 +47,7 @@ pre {
 
 @media (min-width: 38em) {
   html {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -172,7 +172,7 @@ pre code {
 .post {
   margin-bottom: 3em;
   font-size: 85%;
-  text-align: left;
+  text-align: justify;
 }
 
 /* Blog post or page title */
