@@ -127,16 +127,18 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
 
 <center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/unnamed-chunk-7-1.png" ></center>
 
+
+or more made-up heatmaps
+
+<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/unnamed-chunk-8-1.png" ></center>
+
+
 Using the same function we can also plot these cloropleth maps of U.S. unemployment:
 
 <center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/ggplot2-1.png" ></center>
 
 <center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/ggplot2-2.png" ></center>
 
-
-And more made-up heatmaps
-
-<center><img src="https://raw.githubusercontent.com/aljrico/aljrico.github.io/master/_posts/images/unnamed-chunk-8-1.png" ></center>
 
 
 But what if you want discrete scales? These functions also can be used for discrete scales with the argument `discrete = TRUE`. This argument, when TRUE, sets a finite number of sufficiently spaced colours within the selected palette to plot your data.
