@@ -16,7 +16,7 @@ pages:
   About: '/about'
   Tags: '/tags'
 
-# About/contact
+# Ccontact
 author:
   name:              'Alejandro Jimenez Rico'
   url:               http://aljrico.github.io
@@ -33,3 +33,7 @@ theme:
 
  # Localization Strings
  str_continue_reading: "Continue reading..."
+
+# About
+about_name: 'Alejandro Jimenez Rico'
+about_title: 'Data Scientist'
