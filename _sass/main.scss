@@ -27,7 +27,7 @@ body {
 /*   http://css-tricks.com/viewport-sized-typography/
 /*****************************************************************************/
 body {
-  font-size: 1vw;
+  font-size: 1.1vw;
 }
 @media screen and (max-width: 10000px) {
   body {
@@ -77,8 +77,8 @@ pre {
 @media (min-width: 96em) {
   .container {
     max-width: 70%;
-    margin-left: 32%;
-    margin-right: 232%;
+    margin-left: 30%;
+    margin-right: 30%;
   }
 }
 
@@ -101,7 +101,7 @@ h6 {
 }
 
 code {
-  padding: .20em .20em;
+  padding: .30em .30em;
   background-color: #eeeeee;
   border-radius: 3px;
   font-size: 90%;
