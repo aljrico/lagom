@@ -16,6 +16,8 @@ You can spot some of the techniques they use in random loot drops, grinding of m
      alt="Carrot Stick"
      align="center" />
 
+{% include image.html src="Carrot-on-stick.jpg" title="Behaviourism on Videogames" %}
+
 ---
 
 In the early 30's, [Burrhus Frederic Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) began studying psycology in a ground-breaking new way. What is now called **Radical Behaviorism**.
