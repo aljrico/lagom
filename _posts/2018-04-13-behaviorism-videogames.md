@@ -8,11 +8,12 @@ comments: True
 
 Have you ever felt the sensation of playing a videogame *way* past the point where it was fun? Have you ever finished a game, and then looked back a few weeks later and thought *What the hell was I doing with my life*? Why does that happen? 
 
+{% include image_url.html src="Carrot-on-stick.jpg" title="Behaviourism" width="100%" %}
+
 Some games are strongly build around reward schedules, where its design is aimed to make you continually repeat dulling and tedious tasks that have long lost its novelty, creating the illusion of engagement. Even some poorly designed action games use this system to convince players to smash the same buttons for 12 hours straight.
 
 You can spot some of the techniques they use in random loot drops, grinding of monsters, leveling up, farming, loot boxes, etc. Persuading you to stay for just one more prize, even though you have been long bored and sleepy. You could say that almost anything with points system is using this sort of strategem. And it goes way beyond points; it can be applied on anything that has a clear and manifest reward. In this article I want to talk about how games can condition behaviour.
-
-{% include image_url.html src="Carrot-on-stick.jpg" title="Behaviourism on Videogames" width="100%" %}
+	
 
 ---
 
@@ -33,6 +34,8 @@ What happened is that Skinner proved that he could condition the decision making
 Further research showed even more impressive conclusions: The best way to convince someone to continuously do an action is not always giving him a reward immediately after, but to recompense him a random number of times he performed that action, or just scattered enough in time to create the sense of randomness. This strategy happened to be far more effective.
 
 Usually this can be spotted in gambling. We all know that gambling games are not rigged in favour of the gambler, and the gamblers are well aware of that too. So why do they keep playing? Consider asking yourself something: Whould you rather spend 8 hours in a casino playing blackjack and ending with 100€, or pushing a button in a factory for the same time and ending with 100€? Which activity would people tell you is more fun?
+
+{% include image_url.html src="gambling.jpg" title="Gambling on Videogames" width="100%" %}
 
 # Conditioning
 
