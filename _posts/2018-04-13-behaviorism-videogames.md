@@ -12,6 +12,9 @@ Some games are strongly build around reward schedules, where its design is aimed
 
 You can spot some of the techniques they use in random loot drops, grinding of monsters, leveling up, farming, loot boxes, etc. Persuading you to stay for just one more prize, even though you have been long bored and sleepy. You could say that almost anything with points system is using this sort of strategem. And it goes way beyond points; it can be applied on anything that has a clear and manifest reward. In this article I want to talk about how games can condition behaviour.
 
+<img src="Carrot-on-stick.jpg"
+     alt="Carrot Stick" />
+
 ---
 
 In the early 30's, [Burrhus Frederic Skinner](https://en.wikipedia.org/wiki/B._F._Skinner) began studying psycology in a ground-breaking new way. What is now called **Radical Behaviorism**.
