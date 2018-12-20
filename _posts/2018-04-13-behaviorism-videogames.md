@@ -14,7 +14,7 @@ You can spot some of the techniques they use in random loot drops, grinding of m
 
 <img src="https://github.com/aljrico/aljrico.github.io/blob/master/_posts/images/Carrot-on-stick.jpg?raw=true"
      alt="Carrot Stick"
-     align="middle" />
+     align="center" />
 
 ---
 
