@@ -124,6 +124,9 @@
 		max-width: 100%;
 		height: auto;
 		border-radius: 5px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 
