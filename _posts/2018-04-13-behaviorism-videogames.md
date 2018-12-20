@@ -16,7 +16,7 @@ You can spot some of the techniques they use in random loot drops, grinding of m
      alt="Carrot Stick"
      align="center" />
 
-{% include image.html src="Carrot-on-stick.jpg" title="Behaviourism on Videogames" %}
+{% include image_url.html src="Carrot-on-stick.jpg" title="Behaviourism on Videogames" %}
 
 ---
 
