@@ -36,21 +36,21 @@ body {
 /*   http://css-tricks.com/viewport-sized-typography/
 /*****************************************************************************/
 body {
-  font-size: 1.1vw;
+  font-size: 1.2vw;
 }
 @media screen and (max-width: 10000px) {
   body {
-    font-size:1.2rem;
+    font-size:1.25rem;
     font-weight: 400;
   }
 }
 
 pre {
-  font-size: 1vw;
+  font-size: 1.1vw;
 }
 @media screen and (max-width: 10000px) {
   pre {
-    font-size:1rem;
+    font-size:1.1rem;
   }
 }
 /* end Viewport Sized Topography code */
