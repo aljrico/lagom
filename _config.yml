@@ -30,6 +30,8 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+# Theme
+theme:
 
  # Localization Strings
  str_continue_reading: "Continue reading..."
