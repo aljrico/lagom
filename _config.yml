@@ -1,5 +1,7 @@
-# Dependencies
-highlighter:         pygments
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+
 
 # Setup
 title:               Alejandro J Rico
