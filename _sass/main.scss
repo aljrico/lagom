@@ -47,10 +47,12 @@ body {
 
 pre {
   font-size: 1.15vw;
+  tab-size: 2;
 }
 @media screen and (max-width: 10000px) {
   pre {
     font-size:1.15rem;
+    tab-size: 2;
   }
 }
 /* end Viewport Sized Topography code */
